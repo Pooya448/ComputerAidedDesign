@@ -1,0 +1,53 @@
+timestamp=1609462392635
+
+[$root]
+A/$root=22|""|0|1*24214
+BinI32/$root=3*18082
+Version=9.2.2499.sp1.36.4586  (Windows)|0000000f789cd3cd5148cd492d4b2cc92f52d0f5370200289104ea
+
+[ac]
+A/ac=22|./../src/AC.v|1|1*30111
+BinI32/ac=3*22304
+R=./../src/AC.v|1
+Version=9.2.2499.sp1.36.4586  (Windows)|0000000f789cd3cd5148cd492d4b2cc92f52d0f5370200289104ea
+
+[power]
+A/power=22|./../src/on.v|1|1*4126
+BinI32/power=3*2867
+R=./../src/on.v|1
+Version=9.2.2499.sp1.36.4586  (Windows)|0000000f789cd3cd5148cd492d4b2cc92f52d0f5370200289104ea
+
+[start]
+A/start=22|./../src/start.v|1|1*24620
+BinI32/start=3*18221
+R=./../src/start.v|1
+Version=9.2.2499.sp1.36.4586  (Windows)|0000000f789cd3cd5148cd492d4b2cc92f52d0f5370200289104ea
+
+[stop]
+A/stop=22|./../src/stop.v|1|1*27998
+BinI32/stop=3*20819
+R=./../src/stop.v|1
+Version=9.2.2499.sp1.36.4586  (Windows)|0000000f789cd3cd5148cd492d4b2cc92f52d0f5370200289104ea
+
+[~A]
+F:/Classes/CAD/Assignments/HW3_Q3/Elevator/elevator/src/AC.v=0*11157*11929
+F:/Classes/CAD/Assignments/HW3_Q3/Elevator/elevator/src/on.v=0*2239*3171
+F:/Classes/CAD/Assignments/HW3_Q3/Elevator/elevator/src/start.v=0*9298*10233
+F:/Classes/CAD/Assignments/HW3_Q3/Elevator/elevator/src/start.v_stop.v_AC.v=0*13351*14635
+F:/Classes/CAD/Assignments/HW3_Q3/Elevator/elevator/src/stop.v=0*7787*8385
+LastVerilogToplevel=ac
+ModifyID=166
+Version=73
+
+[~MFT]
+0=39|0elevator.mgf|14635|4287
+1=30|1elevator.mgf|30111|20836
+3=30|3elevator.mgf|22304|15485
+
+[~U]
+$root=12|0*12422|
+ac=12|0*13089||0x10
+power=12|0*1982||0x10
+start=12|0*12588||0x10
+stop=12|0*12840||0x10
+

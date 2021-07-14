@@ -1,0 +1,129 @@
+timestamp=1609348270811
+
+[$root]
+A/$root=22|""|0|1*653661
+BinI32/$root=3*184265
+Version=9.2.2499.sp1.36.4586  (Windows)|00000014789cd3cd5170f6718c3749ca2c894f4f2c4955d0f53702004015062a
+
+[FA]
+A/FA=22|./../src/FA.v|1|1*25473
+BinI32/FA=3*1925
+R=./../src/FA.v|1
+Version=9.2.2499.sp1.36.4586  (Windows)|00000014789cd3cd5170f6718c3749ca2c894f4f2c4955d0f53702004015062a
+
+[cla]
+A/cla=22|./../src/CLA_4bit-gate.v|1|1*654083
+BinI32/cla=3*184404
+R=./../src/CLA_4bit-gate.v|1
+Version=9.2.2499.sp1.36.4586  (Windows)|00000014789cd3cd5170f6718c3749ca2c894f4f2c4955d0f53702004015062a
+
+[cla_behav]
+A/cla_behav=22|./../src/CLA_4bit-behav.v|1|1*659940
+BinI32/cla_behav=3*184541
+R=./../src/CLA_4bit-behav.v|1
+Version=9.2.2499.sp1.36.4586  (Windows)|00000014789cd3cd5170f6718c3749ca2c894f4f2c4955d0f53702004015062a
+
+[cla_behav_tb]
+A/cla_behav_tb=22|./../src/TestBench/cla_behav_TB.v|22|1*665834
+BinI32/cla_behav_tb=3*188645
+R=./../src/TestBench/cla_behav_TB.v|22
+Version=9.2.2499.sp1.36.4586  (Windows)|00000014789cd3cd5170f6718c3749ca2c894f4f2c4955d0f53702004015062a
+
+[cla_tb]
+A/cla_tb=22|./../src/TestBench/cla_TB.v|22|1*662009
+BinI32/cla_tb=3*185942
+R=./../src/TestBench/cla_TB.v|22
+Version=9.2.2499.sp1.36.4586  (Windows)|00000014789cd3cd5170f6718c3749ca2c894f4f2c4955d0f53702004015062a
+
+[four_bit_CLA_adder]
+A/four_bit_CLA_adder=22|./../src/CLA_4bit-behav.v|1|1*526555
+BinI32/four_bit_CLA_adder=3*129092
+R=./../src/CLA_4bit-behav.v|1
+Version=9.2.2499.sp1.36.4586  (Windows)|00000014789cd3cd5170f6718c3749ca2c894f4f2c4955d0f53702004015062a
+
+[four_bit_LAC]
+A/four_bit_LAC=22|./../src/CLA_4bit-behav.v|1|1*63791
+BinI32/four_bit_LAC=3*6497
+R=./../src/CLA_4bit-behav.v|1
+Version=9.2.2499.sp1.36.4586  (Windows)|00000014789cd3cd5170f6718c3749ca2c894f4f2c4955d0f53702004015062a
+
+[four_bit_LAC_adder]
+A/four_bit_LAC_adder=22|./../src/CLA_4bit-behav.v|1|1*412036
+BinI32/four_bit_LAC_adder=3*95267
+R=./../src/CLA_4bit-behav.v|1
+Version=9.2.2499.sp1.36.4586  (Windows)|00000014789cd3cd5170f6718c3749ca2c894f4f2c4955d0f53702004015062a
+
+[four_bit_LAC_adder_tb]
+A/four_bit_LAC_adder_tb=22|./../src/TestBench/four_bit_LAC_adder_TB.v|22|1*663869
+BinI32/four_bit_LAC_adder_tb=3*187286
+R=./../src/TestBench/four_bit_LAC_adder_TB.v|22
+Version=9.2.2499.sp1.36.4586  (Windows)|00000014789cd3cd5170f6718c3749ca2c894f4f2c4955d0f53702004015062a
+
+[full_adder]
+A/full_adder=22|./../src/CLA_4bit-behav.v|39|1*533931
+BinI32/full_adder=3*132239
+R=./../src/CLA_4bit-behav.v|39
+Version=9.2.2499.sp1.36.4586  (Windows)|00000014789cd3cd5170f6718c3749ca2c894f4f2c4955d0f53702004015062a
+
+[full_adder_4bit]
+A/full_adder_4bit=22|./../src/CLA_4bit-behav.v|14|1*531170
+BinI32/full_adder_4bit=3*131189
+R=./../src/CLA_4bit-behav.v|14
+Version=9.2.2499.sp1.36.4586  (Windows)|00000014789cd3cd5170f6718c3749ca2c894f4f2c4955d0f53702004015062a
+
+[half_adder]
+A/half_adder=22|./../src/CLA_4bit-behav.v|52|1*535620
+BinI32/half_adder=3*132383
+R=./../src/CLA_4bit-behav.v|52
+Version=9.2.2499.sp1.36.4586  (Windows)|00000014789cd3cd5170f6718c3749ca2c894f4f2c4955d0f53702004015062a
+
+[nbit_full_adder]
+A/nbit_full_adder=22|./../src/CLA_4bit-behav.v|14|1*472040
+BinI32/nbit_full_adder=3*112948
+R=./../src/CLA_4bit-behav.v|14
+Version=9.2.2499.sp1.36.4586  (Windows)|00000014789cd3cd5170f6718c3749ca2c894f4f2c4955d0f53702004015062a
+
+[rca]
+A/rca=22|./../src/CLA_4bit.v|1|1*6982
+BinI32/rca=3*825
+R=./../src/CLA_4bit.v|1
+Version=9.2.2499.sp1.36.4586  (Windows)|00000014789cd3cd5170f6718c3749ca2c894f4f2c4955d0f53702004015062a
+
+[~A]
+C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit-behav.v=0*162822*163535
+C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit-gate.v_CLA_4bit-behav.v=0*45642*46643
+C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit-gate.v_CLA_4bit-behav.v_cla_TB.v=0*94171*96014
+C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit-gate.v_CLA_4bit-behav.v_cla_TB.v_cla_behav_TB.v=0*79615*81009
+C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit-gate.v_CLA_4bit-behav.v_cla_TB.v_four_bit_LAC_adder_TB.v=0*144678*146641
+C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit-gate.v_CLA_4bit-behav.v_cla_TB.v_four_bit_LAC_adder_TB.v_cla_behav_TB.v=0*181959*183569
+C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit.v=0*11180*11967
+C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/FA.v=0*374*835
+C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/FA.v_CLA_4bit.v=0*9339*10243
+C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/TestBench/cla_TB.v=0*68564*69215
+C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/TestBench/cla_behav_TB.v=0*166010*166683
+LastVerilogToplevel=cla_behav_tb
+ModifyID=3033
+Version=73
+
+[~MFT]
+0=536|0CLA_4bit_gate.mgf|183569|100689
+1=582|1CLA_4bit_gate.mgf|665834|636878
+3=582|3CLA_4bit_gate.mgf|188645|180290
+
+[~U]
+$root=12|0*180829|
+FA=12|0*8873|
+cla=12|0*181059|
+cla_behav=12|0*181301|
+cla_behav_tb=12|0*181830||0x10
+cla_tb=12|0*181559||0x10
+four_bit_CLA_adder=12|0*142940|
+four_bit_LAC=12|0*19540||0x10
+four_bit_LAC_adder=12|0*114615|
+four_bit_LAC_adder_tb=12|0*181664||0x10
+full_adder=12|0*143842|
+full_adder_4bit=12|0*143534|
+half_adder=12|0*144148|
+nbit_full_adder=12|0*129347|
+rca=12|0*3134||0x10
+

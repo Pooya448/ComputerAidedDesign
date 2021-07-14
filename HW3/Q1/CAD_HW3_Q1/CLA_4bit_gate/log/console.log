@@ -1,0 +1,3317 @@
+# Design: Design CLA_4bit_gate already active.
+# 
+# DESIGN: Default Design Language: VERILOG
+# DESIGN: Default BDE Language: VERILOG
+# DESIGN: Flow Manager: Not Defined
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/FA.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 FA.v : (1, 13): Syntax error. Unexpected token: -[O_MINUS]. Expected tokens: '#' , 'import' , '(' , ';'.
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/FA.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 FA.v : (3, 9): Syntax error. Unexpected token: l[_IDENTIFIER]. Expected tokens: '[' , ',' , ';'.
+# Error: VCP2571 FA.v : (3, 14): Instantiations must have brackets (): w2.
+# Error: VCP2571 FA.v : (3, 17): Instantiations must have brackets (): w3.
+# Warning: VCP2515 FA.v : (3, 1): Undefined module: l was used. Port connection rules will not be checked at such instantiations.
+# Compile failure 3 Errors 1 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/FA.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Error: VCP5103 FA.v : (4, 34): Undeclared identifier: lo.
+# Error: VCP5103 FA.v : (7, 8): Undeclared identifier: lo.
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/FA.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Error: VCP5103 FA.v : (4, 34): Undeclared identifier: lo.
+# Error: VCP5103 FA.v : (7, 8): Undeclared identifier: lo.
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/FA.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 FA.v : (3, 9): Syntax error. Unexpected token: l[_IDENTIFIER]. Expected tokens: '[' , ',' , ';'.
+# Error: VCP2571 FA.v : (3, 14): Instantiations must have brackets (): w2.
+# Error: VCP2571 FA.v : (3, 17): Instantiations must have brackets (): w3.
+# Warning: VCP2515 FA.v : (3, 1): Undefined module: l was used. Port connection rules will not be checked at such instantiations.
+# Compile failure 3 Errors 1 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/FA.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Error: VCP5103 FA.v : (9, 12): Undeclared identifier: lo.
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/FA.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Unit top modules: FA.
+# $root top modules: FA.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/FA.v $dsn/src/CLA_4bit.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP7801 FA.v : (1, 10): Duplicated declaration of unit FA.
+# Info: VCP7802 FA.v : (1, 10): FA was already declared. See previous declaration.
+# Error: VCP2562 FA.v : (2, 5): Redeclaration of port x.
+# Error: VCP2562 FA.v : (2, 5): Redeclaration of port y.
+# Error: VCP2562 FA.v : (2, 5): Redeclaration of port cin.
+# Error: VCP2562 FA.v : (3, 5): Redeclaration of port sum.
+# Error: VCP2562 FA.v : (3, 5): Redeclaration of port cout.
+# Error: VCP2505 FA.v : (4, 19): Duplicate identifier: wl
+# Error: VCP2505 FA.v : (4, 19): Duplicate identifier: w2
+# Error: VCP2505 FA.v : (4, 19): Duplicate identifier: w3
+# Compile failure 9 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/FA.v $dsn/src/CLA_4bit.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: FA.
+# $root top modules: FA.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/FA.v $dsn/src/CLA_4bit.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 CLA_4bit.v : (1, 8): Syntax error. Unexpected token: include[_IDENTIFIER]. Expected tokens: 'function' , 'task' , 'timeprecision' , 'timeunit' , 'const' ... .
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/FA.v $dsn/src/CLA_4bit.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP7801 FA.v : (1, 10): Duplicated declaration of unit FA.
+# Info: VCP7802 FA.v : (1, 10): FA was already declared. See previous declaration.
+# Error: VCP2562 FA.v : (2, 5): Redeclaration of port x.
+# Error: VCP2562 FA.v : (2, 5): Redeclaration of port y.
+# Error: VCP2562 FA.v : (2, 5): Redeclaration of port cin.
+# Error: VCP2562 FA.v : (3, 5): Redeclaration of port sum.
+# Error: VCP2562 FA.v : (3, 5): Redeclaration of port cout.
+# Error: VCP2505 FA.v : (4, 19): Duplicate identifier: wl
+# Error: VCP2505 FA.v : (4, 19): Duplicate identifier: w2
+# Error: VCP2505 FA.v : (4, 19): Duplicate identifier: w3
+# Compile failure 9 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/FA.v $dsn/src/CLA_4bit.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 CLA_4bit.v : (1, 2): Syntax error. Unexpected token: '. Expected tokens: ':' , ';' , 'always' , 'and' , 'assign' ... .
+# Error: VCP2000 CLA_4bit.v : (6, 6): Syntax error. Unexpected token: -[O_MINUS]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Error: VCP2000 CLA_4bit.v : (6, 49): Syntax error. Unexpected token: -[O_MINUS]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Error: VCP2000 CLA_4bit.v : (6, 93): Syntax error. Unexpected token: -[O_MINUS]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Error: VCP2000 CLA_4bit.v : (6, 138): Syntax error. Unexpected token: -[O_MINUS]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Warning: VCP2515 CLA_4bit.v : (6, 1): Undefined module: adder was used. Port connection rules will not be checked at such instantiations.
+# Compile failure 5 Errors 1 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/FA.v $dsn/src/CLA_4bit.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 CLA_4bit.v : (1, 8): Syntax error. Unexpected token: include[_IDENTIFIER]. Expected tokens: 'function' , 'task' , 'timeprecision' , 'timeunit' , 'const' ... .
+# Error: VCP2000 CLA_4bit.v : (6, 6): Syntax error. Unexpected token: -[O_MINUS]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Error: VCP2000 CLA_4bit.v : (6, 49): Syntax error. Unexpected token: -[O_MINUS]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Error: VCP2000 CLA_4bit.v : (6, 93): Syntax error. Unexpected token: -[O_MINUS]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Error: VCP2000 CLA_4bit.v : (6, 138): Syntax error. Unexpected token: -[O_MINUS]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Warning: VCP2515 CLA_4bit.v : (6, 1): Undefined module: adder was used. Port connection rules will not be checked at such instantiations.
+# Compile failure 5 Errors 1 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/FA.v $dsn/src/CLA_4bit.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 CLA_4bit.v : (1, 2): Syntax error. Unexpected token: '. Expected tokens: ':' , ';' , 'always' , 'and' , 'assign' ... .
+# Error: VCP2000 CLA_4bit.v : (7, 10): Syntax error. Unexpected token: -[O_MINUS]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Error: VCP2000 CLA_4bit.v : (8, 10): Syntax error. Unexpected token: -[O_MINUS]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Error: VCP2000 CLA_4bit.v : (9, 10): Syntax error. Unexpected token: -[O_MINUS]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Error: VCP2000 CLA_4bit.v : (10, 10): Syntax error. Unexpected token: -[O_MINUS]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Warning: VCP2515 CLA_4bit.v : (7, 1): Undefined module: adder was used. Port connection rules will not be checked at such instantiations.
+# Compile failure 5 Errors 1 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/FA.v $dsn/src/CLA_4bit.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 CLA_4bit.v : (1, 2): Syntax error. Unexpected token: '. Expected tokens: ':' , ';' , 'always' , 'and' , 'assign' ... .
+# Compile failure 1 Errors 0 Warnings  Analysis time: 1[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/FA.v $dsn/src/CLA_4bit.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 CLA_4bit.v : (1, 8): Syntax error. Unexpected token: include[_IDENTIFIER]. Expected tokens: 'function' , 'task' , 'timeprecision' , 'timeunit' , 'const' ... .
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/FA.v $dsn/src/CLA_4bit.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 CLA_4bit.v : (1, 8): Syntax error. Unexpected token: include[_IDENTIFIER]. Expected tokens: 'function' , 'task' , 'timeprecision' , 'timeunit' , 'const' ... .
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/FA.v $dsn/src/CLA_4bit.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 CLA_4bit.v : (1, 2): Syntax error. Unexpected token: '. Expected tokens: ':' , ';' , 'always' , 'and' , 'assign' ... .
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/FA.v $dsn/src/CLA_4bit.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP7801 FA.v : (1, 10): Duplicated declaration of unit FA.
+# Info: VCP7802 FA.v : (1, 10): FA was already declared. See previous declaration.
+# Error: VCP2562 FA.v : (2, 5): Redeclaration of port x.
+# Error: VCP2562 FA.v : (2, 5): Redeclaration of port y.
+# Error: VCP2562 FA.v : (2, 5): Redeclaration of port cin.
+# Error: VCP2562 FA.v : (3, 5): Redeclaration of port sum.
+# Error: VCP2562 FA.v : (3, 5): Redeclaration of port cout.
+# Error: VCP2505 FA.v : (4, 19): Duplicate identifier: wl
+# Error: VCP2505 FA.v : (4, 19): Duplicate identifier: w2
+# Error: VCP2505 FA.v : (4, 19): Duplicate identifier: w3
+# Compile failure 9 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/FA.v $dsn/src/CLA_4bit.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP5000 CLA_4bit.v : (1, 1): Name of macro is not specified.
+# Warning: VCP5045 CLA_4bit.v : (1, 9): Text after directive `include ignored: `
+# Error: VCP7801 FA.v : (1, 10): Duplicated declaration of unit FA.
+# Info: VCP7802 FA.v : (1, 10): FA was already declared. See previous declaration.
+# Error: VCP2562 FA.v : (2, 5): Redeclaration of port x.
+# Error: VCP2562 FA.v : (2, 5): Redeclaration of port y.
+# Error: VCP2562 FA.v : (2, 5): Redeclaration of port cin.
+# Error: VCP2562 FA.v : (3, 5): Redeclaration of port sum.
+# Error: VCP2562 FA.v : (3, 5): Redeclaration of port cout.
+# Error: VCP2505 FA.v : (4, 19): Duplicate identifier: wl
+# Error: VCP2505 FA.v : (4, 19): Duplicate identifier: w2
+# Error: VCP2505 FA.v : (4, 19): Duplicate identifier: w3
+# Compile failure 10 Errors 1 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/FA.v $dsn/src/CLA_4bit.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP7801 FA.v : (1, 10): Duplicated declaration of unit FA.
+# Info: VCP7802 FA.v : (1, 10): FA was already declared. See previous declaration.
+# Error: VCP2562 FA.v : (2, 5): Redeclaration of port x.
+# Error: VCP2562 FA.v : (2, 5): Redeclaration of port y.
+# Error: VCP2562 FA.v : (2, 5): Redeclaration of port cin.
+# Error: VCP2562 FA.v : (3, 5): Redeclaration of port sum.
+# Error: VCP2562 FA.v : (3, 5): Redeclaration of port cout.
+# Error: VCP2505 FA.v : (4, 19): Duplicate identifier: wl
+# Error: VCP2505 FA.v : (4, 19): Duplicate identifier: w2
+# Error: VCP2505 FA.v : (4, 19): Duplicate identifier: w3
+# Compile failure 9 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/FA.v $dsn/src/CLA_4bit.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Error: VCP5103 CLA_4bit.v : (6, 17): Undeclared identifier: O.
+# Error: VCP5103 CLA_4bit.v : (6, 22): Undeclared identifier: l.
+# Error: VCP5103 CLA_4bit.v : (6, 27): Undeclared identifier: O.
+# Error: VCP5103 CLA_4bit.v : (6, 32): Undeclared identifier: O.
+# Error: VCP2000 CLA_4bit.v : (7, 28): Syntax error. Unexpected token: ,. Expected tokens: ':' , ']' , '+:' , '-:'.
+# Error: VCP2000 CLA_4bit.v : (8, 20): Syntax error. Unexpected token: [. Expected tokens: '(*' , ''' , '(' , '{' , 'integer'' ... .
+# Error: VCP2000 CLA_4bit.v : (9, 22): Syntax error. Unexpected token: ~[O_BNEG]. Expected tokens: ''' , '(' , ')' , ',' , '.' ... .
+# Compile failure 7 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/FA.v $dsn/src/CLA_4bit.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: rca.
+# $root top modules: rca.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/FA.v $dsn/src/CLA_4bit.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2565 CLA_4bit.v : (1, 1): Undefined direction of external port sum.
+# Error: VCP2567 CLA_4bit.v : (1, 1): Undefined direction of internal port sum.
+# Error: VCP2565 CLA_4bit.v : (1, 1): Undefined direction of external port cout.
+# Error: VCP2567 CLA_4bit.v : (1, 1): Undefined direction of internal port cout.
+# Compile failure 4 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/FA.v $dsn/src/CLA_4bit.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Unit top modules: cla.
+# $root top modules: rca cla.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/FA.v $dsn/src/CLA_4bit.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Unit top modules: cla.
+# $root top modules: rca cla.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/FA.v $dsn/src/CLA_4bit.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Unit top modules: cla.
+# $root top modules: rca cla.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Unit top modules: cla.
+# $root top modules: rca cla.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Unit top modules: cla four_bit_LAC.
+# $root top modules: rca cla four_bit_LAC.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Unit top modules: cla four_bit_LAC.
+# $root top modules: rca cla four_bit_LAC.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Unit top modules: cla four_bit_LAC.
+# $root top modules: rca cla four_bit_LAC.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-behav.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module cla found in current working library.
+# Unit top modules: four_bit_LAC.
+# $root top modules: rca cla four_bit_LAC.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-behav.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module cla found in current working library.
+# Info: VCP2113 Module four_bit_LAC found in current working library.
+# Unit top modules: cla_behav.
+# $root top modules: rca cla four_bit_LAC cla_behav.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module four_bit_LAC found in current working library.
+# Unit top modules: cla cla_behav.
+# $root top modules: rca cla four_bit_LAC cla_behav.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module four_bit_LAC found in current working library.
+# Unit top modules: cla cla_behav.
+# $root top modules: rca cla four_bit_LAC cla_behav.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module four_bit_LAC found in current working library.
+# Unit top modules: cla cla_behav.
+# $root top modules: rca cla four_bit_LAC cla_behav.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module four_bit_LAC found in current working library.
+# Unit top modules: cla cla_behav.
+# $root top modules: rca cla four_bit_LAC cla_behav.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module four_bit_LAC found in current working library.
+# Unit top modules: cla cla_behav.
+# $root top modules: rca cla four_bit_LAC cla_behav.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module four_bit_LAC found in current working library.
+# Unit top modules: cla cla_behav.
+# $root top modules: rca cla four_bit_LAC cla_behav.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module four_bit_LAC found in current working library.
+# Unit top modules: cla cla_behav.
+# $root top modules: rca cla four_bit_LAC cla_behav.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module four_bit_LAC found in current working library.
+# Unit top modules: cla cla_behav.
+# $root top modules: rca cla four_bit_LAC cla_behav.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module four_bit_LAC found in current working library.
+# Unit top modules: cla cla_behav.
+# $root top modules: rca cla four_bit_LAC cla_behav.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module four_bit_LAC found in current working library.
+# Unit top modules: cla cla_behav.
+# $root top modules: rca cla four_bit_LAC cla_behav.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module four_bit_LAC found in current working library.
+# Unit top modules: cla cla_behav.
+# $root top modules: rca cla four_bit_LAC cla_behav.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 cla_TB.v : (44, 8): Syntax error. Unexpected token: =. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 cla_TB.v : (45, 8): Syntax error. Unexpected token: =. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 cla_TB.v : (45, 13): Syntax error. Unexpected token: #100[_DELAY]. Expected tokens: ';' , 'always' , 'and' , 'assign' , 'begin' ... .
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 cla_TB.v : (45, 13): Syntax error. Unexpected token: #100[_DELAY]. Expected tokens: ';' , 'always' , 'and' , 'assign' , 'begin' ... .
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module four_bit_LAC found in current working library.
+# Unit top modules: cla_behav cla_tb.
+# $root top modules: rca four_bit_LAC cla_behav cla_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# Design: Design CLA_4bit_gate already active.
+# 
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module four_bit_LAC found in current working library.
+# Unit top modules: cla_behav cla_tb.
+# $root top modules: rca four_bit_LAC cla_behav cla_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+asim -O5 +access +r +m+cla_tb cla_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.9 [s]
+# SLP: Finished : 0.9 [s]
+# SLP: 26 (96.30%) primitives and 1 (3.70%) other processes in SLP
+# SLP: 15 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 1.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5214 kB (elbread=1023 elab2=4101 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  7:17 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: cla_tb (cla_tb)
+# Waveform file 'untitled.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+# add wave -noreg {/cla_tb/a}
+# add wave -noreg {/cla_tb/b}
+# add wave -noreg {/cla_tb/cin}
+# add wave -noreg {/cla_tb/sum}
+# add wave -noreg {/cla_tb/cout}
+# 5 signal(s) traced.
+run 100 ns
+# KERNEL: 0 ps x x x x x 
+# KERNEL: 100 ps 5 6 0 x x 
+# KERNEL: 130 ps 5 6 0 X 0 
+# KERNEL: 150 ps 5 6 0 X 0 
+# KERNEL: 160 ps 5 6 0 b 0 
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module four_bit_LAC found in current working library.
+# Unit top modules: cla_behav cla_tb.
+# $root top modules: rca four_bit_LAC cla_behav cla_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+cla_tb cla_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.6 [s]
+# SLP: Finished : 0.6 [s]
+# SLP: 26 (96.30%) primitives and 1 (3.70%) other processes in SLP
+# SLP: 15 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.6 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5217 kB (elbread=1023 elab2=4104 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  7:18 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: cla_tb (cla_tb)
+# Waveform file 'untitled.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+# add wave -noreg {/cla_tb/a}
+# add wave -noreg {/cla_tb/b}
+# add wave -noreg {/cla_tb/cin}
+# add wave -noreg {/cla_tb/sum}
+# add wave -noreg {/cla_tb/cout}
+# 5 signal(s) traced.
+run 100 ns
+# KERNEL: 0 ps x x x x x 
+# KERNEL: 100 ps 5 6 0 x x 
+# KERNEL: 130 ps 5 6 0 X 0 
+# KERNEL: 150 ps 5 6 0 X 0 
+# KERNEL: 160 ps 5 6 0 b 0 
+# KERNEL: 200 ps 1 7 1 b 0 
+# KERNEL: 250 ps 1 7 1 9 0 
+# KERNEL: 300 ps 5 9 1 9 0 
+# KERNEL: 330 ps 5 9 1 b 0 
+# KERNEL: 360 ps 5 9 1 f 0 
+# KERNEL: 400 ps a 6 0 f 0 
+# KERNEL: 430 ps a 6 0 e 1 
+# KERNEL: 450 ps a 6 0 8 1 
+# KERNEL: 460 ps a 6 0 0 1 
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module four_bit_LAC found in current working library.
+# Unit top modules: cla_behav cla_tb.
+# $root top modules: rca four_bit_LAC cla_behav cla_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module four_bit_LAC found in current working library.
+# Unit top modules: cla_behav cla_tb.
+# $root top modules: rca four_bit_LAC cla_behav cla_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+cla_tb cla_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.5 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 26 (96.30%) primitives and 1 (3.70%) other processes in SLP
+# SLP: 15 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.6 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5218 kB (elbread=1023 elab2=4105 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  7:19 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: cla_tb (cla_tb)
+# Waveform file 'untitled.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+# add wave -noreg {/cla_tb/a}
+# add wave -noreg {/cla_tb/b}
+# add wave -noreg {/cla_tb/cin}
+# add wave -noreg {/cla_tb/sum}
+# add wave -noreg {/cla_tb/cout}
+# 5 signal(s) traced.
+run 100 ns
+# KERNEL: 0 ps x x x x x 
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module four_bit_LAC found in current working library.
+# Unit top modules: cla_behav cla_tb.
+# $root top modules: rca four_bit_LAC cla_behav cla_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+cla_tb cla_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.8 [s]
+# SLP: Finished : 0.8 [s]
+# SLP: 26 (96.30%) primitives and 1 (3.70%) other processes in SLP
+# SLP: 15 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.8 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5217 kB (elbread=1023 elab2=4104 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  7:21 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: cla_tb (cla_tb)
+# Waveform file 'untitled.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+# add wave -noreg {/cla_tb/a}
+# add wave -noreg {/cla_tb/b}
+# add wave -noreg {/cla_tb/cin}
+# add wave -noreg {/cla_tb/sum}
+# add wave -noreg {/cla_tb/cout}
+# 5 signal(s) traced.
+run 100 ns
+# KERNEL: 0 ps x x x x x 
+# KERNEL: 100 ps 5 6 0 x x 
+# KERNEL: 130 ps 5 6 0 X 0 
+# KERNEL: 150 ps 5 6 0 X 0 
+# KERNEL: 160 ps 5 6 0 b 0 
+# KERNEL: 200 ps 1 7 1 b 0 
+# KERNEL: 250 ps 1 7 1 9 0 
+# KERNEL: 300 ps 5 9 1 9 0 
+# KERNEL: 330 ps 5 9 1 b 0 
+# KERNEL: 360 ps 5 9 1 f 0 
+# KERNEL: 400 ps a 6 0 f 0 
+# KERNEL: 430 ps a 6 0 e 1 
+# KERNEL: 450 ps a 6 0 8 1 
+# KERNEL: 460 ps a 6 0 0 1 
+# RUNTIME: Info: RUNTIME_0068 cla_TB.v (63): $finish called.
+# KERNEL: Time: 500 ps,  Iteration: 0,  Instance: /cla_tb,  Process: @INITIAL#42_1@.
+# KERNEL: stopped at time: 500 ps
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module four_bit_LAC found in current working library.
+# Unit top modules: cla_behav cla_tb.
+# $root top modules: rca four_bit_LAC cla_behav cla_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+endsim
+#  Simulation has been stopped
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module four_bit_LAC found in current working library.
+# Unit top modules: cla_behav cla_tb.
+# $root top modules: rca four_bit_LAC cla_behav cla_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+asim -O5 +access +r +m+cla_tb cla_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.5 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 26 (96.30%) primitives and 1 (3.70%) other processes in SLP
+# SLP: 15 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5217 kB (elbread=1023 elab2=4104 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  7:23 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: cla_tb (cla_tb)
+# Waveform file 'untitled.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+# add wave -noreg {/cla_tb/a}
+# add wave -noreg {/cla_tb/b}
+# add wave -noreg {/cla_tb/cin}
+# add wave -noreg {/cla_tb/sum}
+# add wave -noreg {/cla_tb/cout}
+# 5 signal(s) traced.
+run 100 ns
+# KERNEL: 0 ps x x x x x 
+# KERNEL: 100 ps 5 6 0 x x 
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: 100.03 ps 5 6 0 X 0 
+# KERNEL: 100.05 ps 5 6 0 X 0 
+# KERNEL: 100.06 ps 5 6 0 b 0 
+# KERNEL: 200 ps 1 7 1 b 0 
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: 200.05 ps 1 7 1 9 0 
+# KERNEL: 300 ps 5 9 1 9 0 
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: 300.03 ps 5 9 1 b 0 
+# KERNEL: 300.06 ps 5 9 1 f 0 
+# KERNEL: 400 ps a 6 0 f 0 
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: 400.03 ps a 6 0 e 1 
+# KERNEL: 400.05 ps a 6 0 8 1 
+# KERNEL: 400.06 ps a 6 0 0 1 
+# RUNTIME: Info: RUNTIME_0068 cla_TB.v (63): $finish called.
+# KERNEL: Time: 420 ns,  Iteration: 0,  Instance: /cla_tb,  Process: @INITIAL#42_1@.
+# KERNEL: stopped at time: 420 ns
+run 100 ns
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+cla_tb cla_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 26 (96.30%) primitives and 1 (3.70%) other processes in SLP
+# SLP: 15 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5217 kB (elbread=1023 elab2=4104 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  7:23 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: cla_tb (cla_tb)
+# Waveform file 'untitled.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+# add wave -noreg {/cla_tb/a}
+# add wave -noreg {/cla_tb/b}
+# add wave -noreg {/cla_tb/cin}
+# add wave -noreg {/cla_tb/sum}
+# add wave -noreg {/cla_tb/cout}
+# 5 signal(s) traced.
+run 500 ns
+# KERNEL: 0 ps x x x x x 
+# KERNEL: 100 ps 5 6 0 x x 
+# KERNEL: 100.03 ps 5 6 0 X 0 
+# KERNEL: 100.05 ps 5 6 0 X 0 
+# KERNEL: 100.06 ps 5 6 0 b 0 
+# KERNEL: 200 ps 1 7 1 b 0 
+# KERNEL: 200.05 ps 1 7 1 9 0 
+# KERNEL: 300 ps 5 9 1 9 0 
+# KERNEL: 300.03 ps 5 9 1 b 0 
+# KERNEL: 300.06 ps 5 9 1 f 0 
+# KERNEL: 400 ps a 6 0 f 0 
+# KERNEL: 400.03 ps a 6 0 e 1 
+# KERNEL: 400.05 ps a 6 0 8 1 
+# KERNEL: 400.06 ps a 6 0 0 1 
+# RUNTIME: Info: RUNTIME_0068 cla_TB.v (63): $finish called.
+# KERNEL: Time: 420 ns,  Iteration: 0,  Instance: /cla_tb,  Process: @INITIAL#42_1@.
+# KERNEL: stopped at time: 420 ns
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+cla_tb cla_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/TestBench/cla_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module cla found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module four_bit_LAC found in current working library.
+# Info: VCP2113 Module cla_behav found in current working library.
+# Unit top modules: cla_tb.
+# $root top modules: rca four_bit_LAC cla_behav cla_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.6 [s]
+# SLP: Finished : 0.6 [s]
+# SLP: 26 (96.30%) primitives and 1 (3.70%) other processes in SLP
+# SLP: 15 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.7 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5217 kB (elbread=1023 elab2=4104 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  7:24 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: cla_tb (cla_tb)
+# Waveform file 'untitled.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+# add wave -noreg {/cla_tb/a}
+# add wave -noreg {/cla_tb/b}
+# add wave -noreg {/cla_tb/cin}
+# add wave -noreg {/cla_tb/sum}
+# add wave -noreg {/cla_tb/cout}
+# 5 signal(s) traced.
+run 500 ns
+# KERNEL: 0 ps x x x x x 
+# KERNEL: 100 ps 5 6 0 x x 
+# KERNEL: 100.03 ps 5 6 0 X 0 
+# KERNEL: 100.05 ps 5 6 0 X 0 
+# KERNEL: 100.06 ps 5 6 0 b 0 
+# KERNEL: 200 ps 1 7 1 b 0 
+# KERNEL: 200.05 ps 1 7 1 9 0 
+# KERNEL: 300 ps 5 9 1 9 0 
+# KERNEL: 300.03 ps 5 9 1 b 0 
+# KERNEL: 300.06 ps 5 9 1 f 0 
+# KERNEL: 400 ps a 6 0 f 0 
+# KERNEL: 400.03 ps a 6 0 e 1 
+# KERNEL: 400.05 ps a 6 0 8 1 
+# KERNEL: 400.06 ps a 6 0 0 1 
+# RUNTIME: Info: RUNTIME_0068 cla_TB.v (63): $finish called.
+# KERNEL: Time: 500 ns,  Iteration: 0,  Instance: /cla_tb,  Process: @INITIAL#42_1@.
+# KERNEL: stopped at time: 500 ns
+# Adding file C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\CLA_4bit-gate_WF.asdb ... Done
+# Adding file C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\CLA_4bit-gate_WF.awc ... Done
+endsim
+#  Simulation has been stopped
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/cla_behav_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module four_bit_LAC found in current working library.
+# Unit top modules: cla_tb cla_behav_tb.
+# $root top modules: rca four_bit_LAC cla_tb cla_behav_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla_behav' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+cla_behav_tb cla_behav_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla_behav' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.6 [s]
+# SLP: Finished : 0.7 [s]
+# SLP: 0 primitives and 3 (100.00%) other processes in SLP
+# SLP: 10 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.7 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5219 kB (elbread=1023 elab2=4106 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  7:27 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: cla_behav_tb (cla_behav_tb)
+# Waveform file 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit-gate_WF.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+# add wave -noreg {/cla_behav_tb/a}
+# add wave -noreg {/cla_behav_tb/b}
+# add wave -noreg {/cla_behav_tb/cin}
+# add wave -noreg {/cla_behav_tb/c}
+# 4 signal(s) traced.
+run 500 ns
+# KERNEL: 0 ps x x x x 
+# KERNEL: 100 ps 5 6 0 8 
+# KERNEL: 200 ps 1 7 1 f 
+# KERNEL: 300 ps 5 9 1 3 
+# KERNEL: 400 ps a 6 0 c 
+# RUNTIME: Info: RUNTIME_0068 cla_behav_TB.v (61): $finish called.
+# KERNEL: Time: 500 ps,  Iteration: 0,  Instance: /cla_behav_tb,  Process: @INITIAL#40_1@.
+# KERNEL: stopped at time: 500 ps
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/cla_behav_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Error: VCP5103 CLA_4bit-behav.v : (26, 18): Undeclared identifier: sum.
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/cla_behav_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Warning: VCP2590 cla_behav_TB.v : (38, 1): Undefined port c in module cla_behav.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module four_bit_LAC found in current working library.
+# Unit top modules: cla_tb cla_behav_tb.
+# $root top modules: rca four_bit_LAC cla_tb cla_behav_tb.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+cla_behav_tb cla_behav_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla_behav' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Fatal Error: ELAB2_0134 Too many port connections. Region: /cla_behav_tb/UUT
+# KERNEL: Error: E8005 : Kernel process initialization failed.
+# Error: Fatal error occurred during simulation initialization.
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/cla_behav_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module four_bit_LAC found in current working library.
+# Unit top modules: cla_tb cla_behav_tb.
+# $root top modules: rca four_bit_LAC cla_tb cla_behav_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+asim -O5 +access +r +m+cla_behav_tb cla_behav_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla_behav' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.9 [s]
+# SLP: Finished : 0.9 [s]
+# SLP: 0 primitives and 3 (100.00%) other processes in SLP
+# SLP: 11 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 1.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5220 kB (elbread=1023 elab2=4107 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  7:39 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: cla_behav_tb (cla_behav_tb)
+# Waveform file 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit-gate_WF.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+# add wave -noreg {/cla_behav_tb/a}
+# add wave -noreg {/cla_behav_tb/b}
+# add wave -noreg {/cla_behav_tb/cin}
+# add wave -noreg {/cla_behav_tb/c}
+# 4 signal(s) traced.
+run 500 ns
+# KERNEL: 0 ps x x x x 
+# KERNEL: 100 ps 5 6 0 7 
+# KERNEL: 200 ps 1 7 1 0 
+# KERNEL: 300 ps 5 9 1 e 
+# KERNEL: 400 ps a 6 0 2 
+# RUNTIME: Info: RUNTIME_0068 cla_behav_TB.v (61): $finish called.
+# KERNEL: Time: 500 ps,  Iteration: 0,  Instance: /cla_behav_tb,  Process: @INITIAL#40_1@.
+# KERNEL: stopped at time: 500 ps
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/cla_behav_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module four_bit_LAC found in current working library.
+# Unit top modules: cla_tb cla_behav_tb.
+# $root top modules: rca four_bit_LAC cla_tb cla_behav_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+cla_behav_tb cla_behav_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla_behav' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.7 [s]
+# SLP: Finished : 0.7 [s]
+# SLP: 0 primitives and 3 (100.00%) other processes in SLP
+# SLP: 10 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.7 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5219 kB (elbread=1023 elab2=4106 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  7:41 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: cla_behav_tb (cla_behav_tb)
+# Waveform file 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit-gate_WF.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+# add wave -noreg {/cla_behav_tb/a}
+# add wave -noreg {/cla_behav_tb/b}
+# add wave -noreg {/cla_behav_tb/cin}
+# add wave -noreg {/cla_behav_tb/c}
+# 4 signal(s) traced.
+run 500 ns
+# KERNEL: 0 ps x x x x 
+# KERNEL: 100 ps 5 6 0 8 
+# KERNEL: 200 ps 1 7 1 f 
+# KERNEL: 300 ps 5 9 1 3 
+# KERNEL: 400 ps a 6 0 c 
+# RUNTIME: Info: RUNTIME_0068 cla_behav_TB.v (61): $finish called.
+# KERNEL: Time: 500 ps,  Iteration: 0,  Instance: /cla_behav_tb,  Process: @INITIAL#40_1@.
+# KERNEL: stopped at time: 500 ps
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module four_bit_LAC found in current working library.
+# Info: VCP2113 Module cla_behav_tb found in current working library.
+# Unit top modules: cla_tb.
+# $root top modules: rca four_bit_LAC cla_tb cla_behav_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+endsim
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+cla_tb cla_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 26 (96.30%) primitives and 1 (3.70%) other processes in SLP
+# SLP: 15 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5217 kB (elbread=1023 elab2=4104 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  7:42 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: cla_tb (cla_tb)
+# Waveform file 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit-gate_WF.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+# add wave -noreg {/cla_tb/a}
+# add wave -noreg {/cla_tb/b}
+# add wave -noreg {/cla_tb/cin}
+# add wave -noreg {/cla_tb/sum}
+# add wave -noreg {/cla_tb/cout}
+# 5 signal(s) traced.
+run 500 ns
+# KERNEL: 0 ps x x x x x 
+# KERNEL: 100 ps 5 6 0 x x 
+# KERNEL: 100.03 ps 5 6 0 X 0 
+# KERNEL: 100.05 ps 5 6 0 X 0 
+# KERNEL: 100.06 ps 5 6 0 b 0 
+# KERNEL: 200 ps 1 7 1 b 0 
+# KERNEL: 200.05 ps 1 7 1 9 0 
+# KERNEL: 300 ps 5 9 1 9 0 
+# KERNEL: 300.03 ps 5 9 1 b 0 
+# KERNEL: 300.06 ps 5 9 1 f 0 
+# KERNEL: 400 ps a 6 0 f 0 
+# KERNEL: 400.03 ps a 6 0 e 1 
+# KERNEL: 400.05 ps a 6 0 8 1 
+# KERNEL: 400.06 ps a 6 0 0 1 
+# RUNTIME: Info: RUNTIME_0068 cla_TB.v (63): $finish called.
+# KERNEL: Time: 500 ns,  Iteration: 0,  Instance: /cla_tb,  Process: @INITIAL#42_1@.
+# KERNEL: stopped at time: 500 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 26 (96.30%) primitives and 1 (3.70%) other processes in SLP
+# SLP: 15 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5217 kB (elbread=1023 elab2=4104 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  7:43 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: cla_tb (cla_tb)
+# Waveform file 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit-gate_WF.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Signal '/cla_tb/a' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/cla_tb/b' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/cla_tb/cin' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/cla_tb/sum' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/cla_tb/cout' has already been traced.
+run 500 ns
+# KERNEL: 0 ps x x x x x 
+# KERNEL: 100 ps 5 6 0 x x 
+# KERNEL: 100.03 ps 5 6 0 X 0 
+# KERNEL: 100.05 ps 5 6 0 X 0 
+# KERNEL: 100.06 ps 5 6 0 b 0 
+# KERNEL: 200 ps 1 7 1 b 0 
+# KERNEL: 200.05 ps 1 7 1 9 0 
+# KERNEL: 300 ps 5 9 1 9 0 
+# KERNEL: 300.03 ps 5 9 1 b 0 
+# KERNEL: 300.06 ps 5 9 1 f 0 
+# KERNEL: 400 ps a 6 0 f 0 
+# KERNEL: 400.03 ps a 6 0 e 1 
+# KERNEL: 400.05 ps a 6 0 8 1 
+# KERNEL: 400.06 ps a 6 0 0 1 
+# RUNTIME: Info: RUNTIME_0068 cla_TB.v (63): $finish called.
+# KERNEL: Time: 500 ns,  Iteration: 0,  Instance: /cla_tb,  Process: @INITIAL#42_1@.
+# KERNEL: stopped at time: 500 ns
+endsim
+#  Simulation has been stopped
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module four_bit_LAC found in current working library.
+# Warning: VCP2515 CLA_4bit-behav.v : (29, 1): Undefined module: full_adder was used. Port connection rules will not be checked at such instantiations.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 CLA_4bit-behav.v : (10, 1): Implicit net declaration, symbol Cin has not been declared in module four_bit_LAC_adder.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module cla_behav_tb found in current working library.
+# Unit top modules: four_bit_LAC_adder cla_tb.
+# $root top modules: rca cla_tb cla_behav_tb four_bit_LAC_adder.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module four_bit_LAC found in current working library.
+# Warning: VCP2515 CLA_4bit-behav.v : (47, 1): Undefined module: half_adder was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 CLA_4bit-behav.v : (49, 1): Undefined module: or_gate was used. Port connection rules will not be checked at such instantiations.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 CLA_4bit-behav.v : (10, 1): Implicit net declaration, symbol Cin has not been declared in module four_bit_LAC_adder.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module cla_behav_tb found in current working library.
+# Unit top modules: four_bit_LAC_adder cla_tb.
+# $root top modules: rca cla_tb cla_behav_tb four_bit_LAC_adder.
+# Compile success 0 Errors 2 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 CLA_4bit-behav.v : (58, 14): Syntax error. Unexpected token: xor[_XOR]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Error: VCP2000 CLA_4bit-behav.v : (59, 14): Syntax error. Unexpected token: and[_AND]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Info: VCP2113 Module four_bit_LAC found in current working library.
+# Warning: VCP2515 CLA_4bit-behav.v : (49, 1): Undefined module: or_gate was used. Port connection rules will not be checked at such instantiations.
+# Compile failure 2 Errors 1 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module four_bit_LAC found in current working library.
+# Warning: VCP2515 CLA_4bit-behav.v : (49, 1): Undefined module: or_gate was used. Port connection rules will not be checked at such instantiations.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 CLA_4bit-behav.v : (10, 1): Implicit net declaration, symbol Cin has not been declared in module four_bit_LAC_adder.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module cla_behav_tb found in current working library.
+# Unit top modules: four_bit_LAC_adder cla_tb.
+# $root top modules: rca cla_tb cla_behav_tb four_bit_LAC_adder.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/four_bit_LAC_adder_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module four_bit_LAC found in current working library.
+# Warning: VCP2515 CLA_4bit-behav.v : (49, 1): Undefined module: or_gate was used. Port connection rules will not be checked at such instantiations.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 CLA_4bit-behav.v : (10, 1): Implicit net declaration, symbol Cin has not been declared in module four_bit_LAC_adder.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module cla_behav_tb found in current working library.
+# Unit top modules: cla_tb four_bit_LAC_adder_tb.
+# $root top modules: rca cla_tb cla_behav_tb four_bit_LAC_adder_tb.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+asim -O5 +access +r +m+cla_tb cla_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 26 (96.30%) primitives and 1 (3.70%) other processes in SLP
+# SLP: 15 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5217 kB (elbread=1023 elab2=4104 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  7:58 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: cla_tb (cla_tb)
+# Waveform file 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit-gate_WF.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla_behav' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# add wave -noreg {/cla_behav_tb/a}
+# add wave -noreg {/cla_behav_tb/b}
+# add wave -noreg {/cla_behav_tb/cin}
+# add wave -noreg {/cla_behav_tb/c}
+# Warning: WAVEFORM: Object matching /cla_behav_tb/a not found in C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /cla_behav_tb/b not found in C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /cla_behav_tb/cin not found in C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /cla_behav_tb/c not found in C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb.
+asim -O5 +access +r +m+cla_behav_tb cla_behav_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla_behav' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.5 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 3 (100.00%) other processes in SLP
+# SLP: 10 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.6 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5219 kB (elbread=1023 elab2=4106 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  7:58 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: cla_behav_tb (cla_behav_tb)
+# Waveform file 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit-gate_WF.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+run 500 ns
+# KERNEL: 0 ps x x x x 
+# KERNEL: 100 ps 5 6 0 8 
+# KERNEL: 200 ps 1 7 1 f 
+# KERNEL: 300 ps 5 9 1 3 
+# KERNEL: 400 ps a 6 0 c 
+# RUNTIME: Info: RUNTIME_0068 cla_behav_TB.v (61): $finish called.
+# KERNEL: Time: 500 ps,  Iteration: 0,  Instance: /cla_behav_tb,  Process: @INITIAL#40_1@.
+# KERNEL: stopped at time: 500 ps
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+cla_behav_tb cla_behav_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla_behav' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 3 (100.00%) other processes in SLP
+# SLP: 10 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5219 kB (elbread=1023 elab2=4106 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  7:58 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: cla_behav_tb (cla_behav_tb)
+# Waveform file 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit-gate_WF.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+# add wave -noreg {/cla_behav_tb/a}
+# add wave -noreg {/cla_behav_tb/b}
+# add wave -noreg {/cla_behav_tb/cin}
+# add wave -noreg {/cla_behav_tb/c}
+# 4 signal(s) traced.
+run 500 ns
+# KERNEL: 0 ps x x x x 
+# KERNEL: 100 ps 5 6 0 8 
+# KERNEL: 200 ps 1 7 1 f 
+# KERNEL: 300 ps 5 9 1 3 
+# KERNEL: 400 ps a 6 0 c 
+# RUNTIME: Info: RUNTIME_0068 cla_behav_TB.v (61): $finish called.
+# KERNEL: Time: 500 ps,  Iteration: 0,  Instance: /cla_behav_tb,  Process: @INITIAL#40_1@.
+# KERNEL: stopped at time: 500 ps
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'four_bit_LAC_adder' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'four_bit_LAC' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'nbit_full_adder' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'full_adder' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'half_adder' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+four_bit_LAC_adder_tb four_bit_LAC_adder_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'four_bit_LAC_adder' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'four_bit_LAC' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'nbit_full_adder' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'full_adder' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'half_adder' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Fatal Error: ELAB2_0134 Design unit or_gate instantiated in cla_4bit_gate.full_adder not found in searched libraries: CLA_4bit_gate, cla_4bit_gate.
+# KERNEL: Error: E8005 : Kernel process initialization failed.
+# Error: Fatal error occurred during simulation initialization.
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/four_bit_LAC_adder_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module four_bit_LAC found in current working library.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 CLA_4bit-behav.v : (10, 1): Implicit net declaration, symbol Cin has not been declared in module four_bit_LAC_adder.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module cla_behav_tb found in current working library.
+# Unit top modules: cla_tb four_bit_LAC_adder_tb.
+# $root top modules: rca cla_tb cla_behav_tb four_bit_LAC_adder_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+asim -O5 +access +r +m+four_bit_LAC_adder_tb four_bit_LAC_adder_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'four_bit_LAC_adder' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'four_bit_LAC' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'nbit_full_adder' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'full_adder' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'half_adder' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.6 [s]
+# SLP: Finished : 0.7 [s]
+# SLP: 20 (86.96%) primitives and 3 (13.04%) other processes in SLP
+# SLP: 88 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.7 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1130 kB (elbread=1024 elab2=17 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  7:59 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: four_bit_LAC_adder_tb (four_bit_LAC_adder_tb)
+# Waveform file 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit-gate_WF.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+# add wave -noreg {/four_bit_LAC_adder_tb/a}
+# add wave -noreg {/four_bit_LAC_adder_tb/b}
+# add wave -noreg {/four_bit_LAC_adder_tb/cin}
+# add wave -noreg {/four_bit_LAC_adder_tb/sum}
+# add wave -noreg {/four_bit_LAC_adder_tb/cout}
+# 5 signal(s) traced.
+run 500 ns
+# KERNEL: 0 ps x x x x x 
+# KERNEL: 100 ps 5 6 0 X 0 
+# KERNEL: 200 ps 1 7 1 X 0 
+# KERNEL: 300 ps 5 9 1 X 0 
+# KERNEL: 400 ps a 6 0 X 1 
+# RUNTIME: Info: RUNTIME_0068 four_bit_LAC_adder_TB.v (63): $finish called.
+# KERNEL: Time: 500 ps,  Iteration: 0,  Instance: /four_bit_LAC_adder_tb,  Process: @INITIAL#42_1@.
+# KERNEL: stopped at time: 500 ps
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/four_bit_LAC_adder_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 CLA_4bit-behav.v : (10, 1): Implicit net declaration, symbol Cin has not been declared in module four_bit_LAC_adder.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module cla_behav_tb found in current working library.
+# Unit top modules: cla_tb four_bit_LAC_adder_tb.
+# $root top modules: rca cla_tb cla_behav_tb four_bit_LAC_adder_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+four_bit_LAC_adder_tb four_bit_LAC_adder_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'four_bit_LAC_adder' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'cla_behav' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'nbit_full_adder' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'full_adder' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'half_adder' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.6 [s]
+# SLP: Finished : 0.7 [s]
+# SLP: 20 (86.96%) primitives and 3 (13.04%) other processes in SLP
+# SLP: 88 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.7 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1130 kB (elbread=1024 elab2=17 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  8:07 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: four_bit_LAC_adder_tb (four_bit_LAC_adder_tb)
+# Waveform file 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit-gate_WF.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+# add wave -noreg {/four_bit_LAC_adder_tb/a}
+# add wave -noreg {/four_bit_LAC_adder_tb/b}
+# add wave -noreg {/four_bit_LAC_adder_tb/cin}
+# add wave -noreg {/four_bit_LAC_adder_tb/sum}
+# add wave -noreg {/four_bit_LAC_adder_tb/cout}
+# 5 signal(s) traced.
+run 500 ns
+# KERNEL: 0 ps x x x x x 
+# KERNEL: 100 ps 5 6 0 X 0 
+# KERNEL: 200 ps 1 7 1 X 0 
+# KERNEL: 300 ps 5 9 1 X 0 
+# KERNEL: 400 ps a 6 0 X 1 
+# RUNTIME: Info: RUNTIME_0068 four_bit_LAC_adder_TB.v (63): $finish called.
+# KERNEL: Time: 500 ps,  Iteration: 0,  Instance: /four_bit_LAC_adder_tb,  Process: @INITIAL#42_1@.
+# KERNEL: stopped at time: 500 ps
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+four_bit_LAC_adder_tb four_bit_LAC_adder_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'four_bit_LAC_adder' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'cla_behav' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'nbit_full_adder' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'full_adder' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'half_adder' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-behav.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module cla_tb found in current working library.
+# Info: VCP2113 Module cla_behav_tb found in current working library.
+# Info: VCP2113 Module four_bit_LAC_adder_tb found in current working library.
+# $root top modules: rca cla_tb cla_behav_tb four_bit_LAC_adder_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'four_bit_LAC_adder' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'cla_behav' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'nbit_full_adder' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'full_adder' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'half_adder' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.6 [s]
+# SLP: Finished : 0.7 [s]
+# SLP: 20 (86.96%) primitives and 3 (13.04%) other processes in SLP
+# SLP: 87 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.7 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1130 kB (elbread=1024 elab2=17 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  8:07 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: four_bit_LAC_adder_tb (four_bit_LAC_adder_tb)
+# Waveform file 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit-gate_WF.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+# add wave -noreg {/four_bit_LAC_adder_tb/a}
+# add wave -noreg {/four_bit_LAC_adder_tb/b}
+# add wave -noreg {/four_bit_LAC_adder_tb/cin}
+# add wave -noreg {/four_bit_LAC_adder_tb/sum}
+# add wave -noreg {/four_bit_LAC_adder_tb/cout}
+# 5 signal(s) traced.
+run 500 ns
+# KERNEL: 0 ps x x x x x 
+# KERNEL: 100 ps 5 6 0 b 0 
+# KERNEL: 200 ps 1 7 1 9 0 
+# KERNEL: 300 ps 5 9 1 f 0 
+# KERNEL: 400 ps a 6 0 0 1 
+# RUNTIME: Info: RUNTIME_0068 four_bit_LAC_adder_TB.v (63): $finish called.
+# KERNEL: Time: 500 ps,  Iteration: 0,  Instance: /four_bit_LAC_adder_tb,  Process: @INITIAL#42_1@.
+# KERNEL: stopped at time: 500 ps
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/four_bit_LAC_adder_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module cla_behav_tb found in current working library.
+# Unit top modules: cla_tb four_bit_LAC_adder_tb.
+# $root top modules: rca cla_tb cla_behav_tb four_bit_LAC_adder_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/four_bit_LAC_adder_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module four_bit_LAC_adder found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module cla_behav_tb found in current working library.
+# Unit top modules: four_bit_CLA_adder cla_tb four_bit_LAC_adder_tb.
+# $root top modules: rca cla_tb cla_behav_tb four_bit_LAC_adder_tb four_bit_CLA_adder.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/four_bit_LAC_adder_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module cla_behav_tb found in current working library.
+# Unit top modules: cla_tb four_bit_LAC_adder_tb.
+# $root top modules: rca cla_tb cla_behav_tb four_bit_LAC_adder_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+four_bit_LAC_adder_tb four_bit_LAC_adder_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'four_bit_CLA_adder' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'cla_behav' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'nbit_full_adder' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'full_adder' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'half_adder' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.6 [s]
+# SLP: Finished : 0.7 [s]
+# SLP: 20 (86.96%) primitives and 3 (13.04%) other processes in SLP
+# SLP: 87 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.7 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1130 kB (elbread=1024 elab2=17 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  8:09 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: four_bit_LAC_adder_tb (four_bit_LAC_adder_tb)
+# Waveform file 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit-gate_WF.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+# add wave -noreg {/four_bit_LAC_adder_tb/a}
+# add wave -noreg {/four_bit_LAC_adder_tb/b}
+# add wave -noreg {/four_bit_LAC_adder_tb/cin}
+# add wave -noreg {/four_bit_LAC_adder_tb/sum}
+# add wave -noreg {/four_bit_LAC_adder_tb/cout}
+# 5 signal(s) traced.
+run 500 ns
+# KERNEL: 0 ps x x x x x 
+# KERNEL: 100 ps 5 6 0 b 0 
+# KERNEL: 200 ps 1 7 1 9 0 
+# KERNEL: 300 ps 5 9 1 f 0 
+# KERNEL: 400 ps a 6 0 0 1 
+# RUNTIME: Info: RUNTIME_0068 four_bit_LAC_adder_TB.v (63): $finish called.
+# KERNEL: Time: 500 ps,  Iteration: 0,  Instance: /four_bit_LAC_adder_tb,  Process: @INITIAL#42_1@.
+# KERNEL: stopped at time: 500 ps
+# Adding file C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\CLA_4bit-gate_WF.awc ... Done
+endsim
+#  Simulation has been stopped
+# Adding file C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\CLA_4bit-gate_WF.awc ... Done
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/four_bit_LAC_adder_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module cla_behav_tb found in current working library.
+# Unit top modules: cla_tb four_bit_LAC_adder_tb.
+# $root top modules: rca cla_tb cla_behav_tb four_bit_LAC_adder_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/four_bit_LAC_adder_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module cla_behav_tb found in current working library.
+# Unit top modules: cla_tb four_bit_LAC_adder_tb.
+# $root top modules: rca cla_tb cla_behav_tb four_bit_LAC_adder_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+asim -O5 +access +r +m+four_bit_LAC_adder_tb four_bit_LAC_adder_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'four_bit_CLA_adder' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'cla_behav' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'full_adder_4bit' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'full_adder' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'half_adder' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.6 [s]
+# SLP: Finished : 0.6 [s]
+# SLP: 20 (86.96%) primitives and 3 (13.04%) other processes in SLP
+# SLP: 87 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.7 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1130 kB (elbread=1024 elab2=17 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  8:12 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: four_bit_LAC_adder_tb (four_bit_LAC_adder_tb)
+# Waveform file 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit-gate_WF.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+# add wave -noreg {/four_bit_LAC_adder_tb/a}
+# add wave -noreg {/four_bit_LAC_adder_tb/b}
+# add wave -noreg {/four_bit_LAC_adder_tb/cin}
+# add wave -noreg {/four_bit_LAC_adder_tb/sum}
+# add wave -noreg {/four_bit_LAC_adder_tb/cout}
+# 5 signal(s) traced.
+run 500 ns
+# KERNEL: 0 ps x x x x x 
+# KERNEL: 100 ps 5 6 0 b 0 
+# KERNEL: 200 ps 1 7 1 9 0 
+# KERNEL: 300 ps 5 9 1 f 0 
+# KERNEL: 400 ps a 6 0 0 1 
+# RUNTIME: Info: RUNTIME_0068 four_bit_LAC_adder_TB.v (63): $finish called.
+# KERNEL: Time: 500 ps,  Iteration: 0,  Instance: /four_bit_LAC_adder_tb,  Process: @INITIAL#42_1@.
+# KERNEL: stopped at time: 500 ps
+endsim
+#  Simulation has been stopped
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/four_bit_LAC_adder_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Error: VCP5103 CLA_4bit-behav.v : (90, 23): Undeclared identifier: g.
+# Error: VCP5103 CLA_4bit-behav.v : (90, 31): Undeclared identifier: p.
+# Error: VCP5103 CLA_4bit-behav.v : (92, 23): Undeclared identifier: g.
+# Error: VCP5103 CLA_4bit-behav.v : (92, 31): Undeclared identifier: p.
+# Error: VCP5103 CLA_4bit-behav.v : (92, 37): Undeclared identifier: g.
+# Error: VCP5103 CLA_4bit-behav.v : (92, 47): Undeclared identifier: p.
+# Error: VCP5103 CLA_4bit-behav.v : (92, 54): Undeclared identifier: p.
+# Error: VCP5103 CLA_4bit-behav.v : (94, 23): Undeclared identifier: g.
+# Error: VCP5103 CLA_4bit-behav.v : (94, 31): Undeclared identifier: p.
+# Error: VCP5103 CLA_4bit-behav.v : (94, 37): Undeclared identifier: g.
+# Error: VCP5103 CLA_4bit-behav.v : (94, 47): Undeclared identifier: p.
+# Error: VCP5103 CLA_4bit-behav.v : (94, 54): Undeclared identifier: p.
+# Error: VCP5103 CLA_4bit-behav.v : (94, 60): Undeclared identifier: g.
+# Error: VCP5103 CLA_4bit-behav.v : (95, 40): Undeclared identifier: p.
+# Error: VCP5103 CLA_4bit-behav.v : (95, 47): Undeclared identifier: p.
+# Error: VCP5103 CLA_4bit-behav.v : (95, 54): Undeclared identifier: p.
+# Error: VCP5103 CLA_4bit-behav.v : (95, 60): Undeclared identifier: c_in.
+# Error: VCP5103 CLA_4bit-behav.v : (97, 23): Undeclared identifier: g.
+# Error: VCP5103 CLA_4bit-behav.v : (97, 31): Undeclared identifier: p.
+# Error: VCP5103 CLA_4bit-behav.v : (97, 37): Undeclared identifier: g.
+# Error: VCP5103 CLA_4bit-behav.v : (97, 47): Undeclared identifier: p.
+# Error: VCP5103 CLA_4bit-behav.v : (97, 54): Undeclared identifier: p.
+# Error: VCP5103 CLA_4bit-behav.v : (97, 60): Undeclared identifier: g.
+# Error: VCP5103 CLA_4bit-behav.v : (98, 33): Undeclared identifier: p.
+# Error: VCP5103 CLA_4bit-behav.v : (98, 40): Undeclared identifier: p.
+# Error: VCP5103 CLA_4bit-behav.v : (98, 47): Undeclared identifier: p.
+# Error: VCP5103 CLA_4bit-behav.v : (98, 53): Undeclared identifier: g.
+# Error: VCP5103 CLA_4bit-behav.v : (99, 33): Undeclared identifier: p.
+# Error: VCP5103 CLA_4bit-behav.v : (99, 40): Undeclared identifier: p.
+# Error: VCP5103 CLA_4bit-behav.v : (99, 47): Undeclared identifier: p.
+# Error: VCP5103 CLA_4bit-behav.v : (99, 54): Undeclared identifier: p.
+# Error: VCP5103 CLA_4bit-behav.v : (99, 60): Undeclared identifier: c_in.
+# Error: VCP5103 CLA_4bit-behav.v : (101, 35): Undeclared identifier: p.
+# Compile failure 33 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/four_bit_LAC_adder_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Error: VCP5103 CLA_4bit-behav.v : (95, 60): Undeclared identifier: c_in.
+# Error: VCP5103 CLA_4bit-behav.v : (99, 60): Undeclared identifier: c_in.
+# Error: VCP2854 CLA_4bit-behav.v : (101, 45): sum is not a valid left-hand side of a continuous assignment.
+# Compile failure 3 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/four_bit_LAC_adder_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Error: VCP2854 CLA_4bit-behav.v : (101, 45): sum is not a valid left-hand side of a continuous assignment.
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/four_bit_LAC_adder_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module cla_behav_tb found in current working library.
+# Unit top modules: cla_tb four_bit_LAC_adder_tb.
+# $root top modules: rca cla_tb cla_behav_tb four_bit_LAC_adder_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla_behav' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+cla_behav_tb cla_behav_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla_behav' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 8 (100.00%) other processes in SLP
+# SLP: 11 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1125 kB (elbread=1023 elab2=12 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  8:24 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: cla_behav_tb (cla_behav_tb)
+# Waveform file 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit-gate_WF.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+# add wave -noreg {/cla_behav_tb/a}
+# add wave -noreg {/cla_behav_tb/b}
+# add wave -noreg {/cla_behav_tb/cin}
+# add wave -noreg {/cla_behav_tb/c}
+# 4 signal(s) traced.
+run 500 ns
+# KERNEL: 0 ps x x x z 
+# KERNEL: 100 ps 5 6 0 z 
+# KERNEL: 200 ps 1 7 1 z 
+# KERNEL: 300 ps 5 9 1 z 
+# KERNEL: 400 ps a 6 0 z 
+# RUNTIME: Info: RUNTIME_0068 cla_behav_TB.v (61): $finish called.
+# KERNEL: Time: 500 ps,  Iteration: 0,  Instance: /cla_behav_tb,  Process: @INITIAL#40_1@.
+# KERNEL: stopped at time: 500 ps
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/four_bit_LAC_adder_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 CLA_4bit-behav.v : (67, 11): Syntax error. Unexpected token: output[_OUTPUT]. Expected tokens: '[' , ')' , ',' , ';' , '='.
+# Error: VCP2000 CLA_4bit-behav.v : (86, 10): Syntax error. Unexpected token: assign[_ASSIGN]. Expected tokens: 'function' , 'task' , 'timeprecision' , 'timeunit' , 'const' ... .
+# Error: VCP1023 cla_TB.v : (21, 11): Compiler directive `timescale is not allowed inside a module.
+# Error: VCP1023 four_bit_LAC_adder_TB.v : (21, 11): Compiler directive `timescale is not allowed inside a module.
+# Compile failure 4 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/four_bit_LAC_adder_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 CLA_4bit-behav.v : (67, 11): Syntax error. Unexpected token: output[_OUTPUT]. Expected tokens: '[' , ')' , ',' , ';' , '='.
+# Error: VCP2000 CLA_4bit-behav.v : (86, 10): Syntax error. Unexpected token: assign[_ASSIGN]. Expected tokens: 'function' , 'task' , 'timeprecision' , 'timeunit' , 'const' ... .
+# Error: VCP1023 cla_TB.v : (21, 11): Compiler directive `timescale is not allowed inside a module.
+# Error: VCP1023 four_bit_LAC_adder_TB.v : (21, 11): Compiler directive `timescale is not allowed inside a module.
+# Compile failure 4 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/four_bit_LAC_adder_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 CLA_4bit-behav.v : (103, 9): Syntax error. Unexpected token: =. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/four_bit_LAC_adder_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 CLA_4bit-behav.v : (103, 10): Syntax error. Unexpected token: <=[O_LESSEQU]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/four_bit_LAC_adder_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Warning: VCP2597 CLA_4bit-behav.v : (10, 1): Some unconnected ports remain at instance: CLA. Module cla_behav has unconnected  port(s) : cout.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module cla_behav_tb found in current working library.
+# Unit top modules: cla_tb four_bit_LAC_adder_tb.
+# $root top modules: rca cla_tb cla_behav_tb four_bit_LAC_adder_tb.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+cla_behav_tb cla_behav_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla_behav' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/TestBench/cla_behav_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module cla_behav found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module cla_tb found in current working library.
+# Info: VCP2113 Module four_bit_LAC_adder_tb found in current working library.
+# Unit top modules: cla_behav_tb.
+# $root top modules: rca cla_tb cla_behav_tb four_bit_LAC_adder_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla_behav' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.6 [s]
+# SLP: Finished : 0.7 [s]
+# SLP: 0 primitives and 10 (100.00%) other processes in SLP
+# SLP: 14 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.7 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1122 kB (elbread=1023 elab2=9 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  8:26 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: cla_behav_tb (cla_behav_tb)
+# Waveform file 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit-gate_WF.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+# add wave -noreg {/cla_behav_tb/a}
+# add wave -noreg {/cla_behav_tb/b}
+# add wave -noreg {/cla_behav_tb/cin}
+# add wave -noreg {/cla_behav_tb/sum}
+# add wave -noreg {/cla_behav_tb/cout}
+# 5 signal(s) traced.
+run 500 ns
+# KERNEL: 0 ps x x x x x 
+# KERNEL: stopped at time: 500 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-behav.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Warning: VCP2597 CLA_4bit-behav.v : (10, 1): Some unconnected ports remain at instance: CLA. Module cla_behav has unconnected  port(s) : cout.
+# Pass 3. Processing behavioral statements.
+# Error: VCP2868 CLA_4bit-behav.v : (91, 29): c[0] is not a valid left-hand side of assign statement.
+# Error: VCP2868 CLA_4bit-behav.v : (93, 46): c[1] is not a valid left-hand side of assign statement.
+# Error: VCP2868 CLA_4bit-behav.v : (95, 69): c[2] is not a valid left-hand side of assign statement.
+# Error: VCP2868 CLA_4bit-behav.v : (98, 68): c[3] is not a valid left-hand side of assign statement.
+# Error: VCP2868 CLA_4bit-behav.v : (102, 68): c[4] is not a valid left-hand side of assign statement.
+# Error: VCP2868 CLA_4bit-behav.v : (104, 54): temp is not a valid left-hand side of assign statement.
+# Error: VCP2868 CLA_4bit-behav.v : (105, 34): sum is not a valid left-hand side of assign statement.
+# Error: VCP2868 CLA_4bit-behav.v : (106, 33): cout is not a valid left-hand side of assign statement.
+# Compile failure 8 Errors 1 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/four_bit_LAC_adder_TB.v $dsn/src/TestBench/cla_behav_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Warning: VCP2597 CLA_4bit-behav.v : (10, 1): Some unconnected ports remain at instance: CLA. Module cla_behav has unconnected  port(s) : cout.
+# Pass 3. Processing behavioral statements.
+# Error: VCP2868 CLA_4bit-behav.v : (91, 29): c[0] is not a valid left-hand side of assign statement.
+# Error: VCP2868 CLA_4bit-behav.v : (93, 46): c[1] is not a valid left-hand side of assign statement.
+# Error: VCP2868 CLA_4bit-behav.v : (95, 69): c[2] is not a valid left-hand side of assign statement.
+# Error: VCP2868 CLA_4bit-behav.v : (98, 68): c[3] is not a valid left-hand side of assign statement.
+# Error: VCP2868 CLA_4bit-behav.v : (102, 68): c[4] is not a valid left-hand side of assign statement.
+# Error: VCP2868 CLA_4bit-behav.v : (104, 54): temp is not a valid left-hand side of assign statement.
+# Error: VCP2868 CLA_4bit-behav.v : (105, 34): sum is not a valid left-hand side of assign statement.
+# Error: VCP2868 CLA_4bit-behav.v : (106, 33): cout is not a valid left-hand side of assign statement.
+# Compile failure 8 Errors 1 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/four_bit_LAC_adder_TB.v $dsn/src/TestBench/cla_behav_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Warning: VCP2597 CLA_4bit-behav.v : (10, 1): Some unconnected ports remain at instance: CLA. Module cla_behav has unconnected  port(s) : cout.
+# Pass 3. Processing behavioral statements.
+# Error: VCP2858 CLA_4bit-behav.v : (91, 22): c[0] is not a valid left-hand side of a procedural assignment.
+# Error: VCP2868 CLA_4bit-behav.v : (93, 46): c[1] is not a valid left-hand side of assign statement.
+# Error: VCP2868 CLA_4bit-behav.v : (95, 69): c[2] is not a valid left-hand side of assign statement.
+# Error: VCP2868 CLA_4bit-behav.v : (98, 68): c[3] is not a valid left-hand side of assign statement.
+# Error: VCP2868 CLA_4bit-behav.v : (102, 68): c[4] is not a valid left-hand side of assign statement.
+# Error: VCP2868 CLA_4bit-behav.v : (104, 54): temp is not a valid left-hand side of assign statement.
+# Error: VCP2868 CLA_4bit-behav.v : (105, 34): sum is not a valid left-hand side of assign statement.
+# Error: VCP2868 CLA_4bit-behav.v : (106, 33): cout is not a valid left-hand side of assign statement.
+# Compile failure 8 Errors 1 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/four_bit_LAC_adder_TB.v $dsn/src/TestBench/cla_behav_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Warning: VCP2597 CLA_4bit-behav.v : (10, 1): Some unconnected ports remain at instance: CLA. Module cla_behav has unconnected  port(s) : cout.
+# Pass 3. Processing behavioral statements.
+# Error: VCP2858 CLA_4bit-behav.v : (91, 22): c[0] is not a valid left-hand side of a procedural assignment.
+# Error: VCP2858 CLA_4bit-behav.v : (93, 39): c[1] is not a valid left-hand side of a procedural assignment.
+# Error: VCP2858 CLA_4bit-behav.v : (95, 62): c[2] is not a valid left-hand side of a procedural assignment.
+# Error: VCP2858 CLA_4bit-behav.v : (98, 68): c[3] is not a valid left-hand side of a procedural assignment.
+# Error: VCP2858 CLA_4bit-behav.v : (102, 68): c[4] is not a valid left-hand side of a procedural assignment.
+# Error: VCP2858 CLA_4bit-behav.v : (104, 47): temp is not a valid left-hand side of a procedural assignment.
+# Error: VCP2858 CLA_4bit-behav.v : (105, 27): sum is not a valid left-hand side of a procedural assignment.
+# Error: VCP2858 CLA_4bit-behav.v : (106, 26): cout is not a valid left-hand side of a procedural assignment.
+# Compile failure 8 Errors 1 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/four_bit_LAC_adder_TB.v $dsn/src/TestBench/cla_behav_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Warning: VCP2597 CLA_4bit-behav.v : (10, 1): Some unconnected ports remain at instance: CLA. Module cla_behav has unconnected  port(s) : cout.
+# Pass 3. Processing behavioral statements.
+# Error: VCP2858 CLA_4bit-behav.v : (91, 22): c[0] is not a valid left-hand side of a procedural assignment.
+# Error: VCP2858 CLA_4bit-behav.v : (93, 39): c[1] is not a valid left-hand side of a procedural assignment.
+# Error: VCP2858 CLA_4bit-behav.v : (95, 62): c[2] is not a valid left-hand side of a procedural assignment.
+# Error: VCP2858 CLA_4bit-behav.v : (98, 68): c[3] is not a valid left-hand side of a procedural assignment.
+# Error: VCP2858 CLA_4bit-behav.v : (102, 68): c[4] is not a valid left-hand side of a procedural assignment.
+# Error: VCP2858 CLA_4bit-behav.v : (104, 47): temp is not a valid left-hand side of a procedural assignment.
+# Error: VCP2858 CLA_4bit-behav.v : (105, 27): sum is not a valid left-hand side of a procedural assignment.
+# Error: VCP2858 CLA_4bit-behav.v : (106, 26): cout is not a valid left-hand side of a procedural assignment.
+# Compile failure 8 Errors 1 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/four_bit_LAC_adder_TB.v $dsn/src/TestBench/cla_behav_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module four_bit_CLA_adder found in current working library.
+# Info: VCP2113 Module full_adder_4bit found in current working library.
+# Info: VCP2113 Module full_adder_4bit found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Error: VCP2858 CLA_4bit-behav.v : (91, 22): c[0] is not a valid left-hand side of a procedural assignment.
+# Error: VCP2858 CLA_4bit-behav.v : (93, 39): c[1] is not a valid left-hand side of a procedural assignment.
+# Error: VCP2858 CLA_4bit-behav.v : (95, 62): c[2] is not a valid left-hand side of a procedural assignment.
+# Error: VCP2858 CLA_4bit-behav.v : (98, 68): c[3] is not a valid left-hand side of a procedural assignment.
+# Error: VCP2858 CLA_4bit-behav.v : (102, 68): c[4] is not a valid left-hand side of a procedural assignment.
+# Error: VCP2858 CLA_4bit-behav.v : (104, 47): temp is not a valid left-hand side of a procedural assignment.
+# Error: VCP2858 CLA_4bit-behav.v : (105, 27): sum is not a valid left-hand side of a procedural assignment.
+# Error: VCP2858 CLA_4bit-behav.v : (106, 26): cout is not a valid left-hand side of a procedural assignment.
+# Compile failure 8 Errors 0 Warnings  Analysis time: 1[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/four_bit_LAC_adder_TB.v $dsn/src/TestBench/cla_behav_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module four_bit_CLA_adder found in current working library.
+# Info: VCP2113 Module full_adder_4bit found in current working library.
+# Info: VCP2113 Module full_adder_4bit found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Error: VCP2858 CLA_4bit-behav.v : (104, 47): temp is not a valid left-hand side of a procedural assignment.
+# Error: VCP2858 CLA_4bit-behav.v : (105, 27): sum is not a valid left-hand side of a procedural assignment.
+# Error: VCP2858 CLA_4bit-behav.v : (106, 26): cout is not a valid left-hand side of a procedural assignment.
+# Compile failure 3 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/four_bit_LAC_adder_TB.v $dsn/src/TestBench/cla_behav_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module four_bit_CLA_adder found in current working library.
+# Info: VCP2113 Module full_adder_4bit found in current working library.
+# Info: VCP2113 Module full_adder_4bit found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Error: VCP2858 CLA_4bit-behav.v : (105, 27): sum is not a valid left-hand side of a procedural assignment.
+# Error: VCP2858 CLA_4bit-behav.v : (106, 26): cout is not a valid left-hand side of a procedural assignment.
+# Compile failure 2 Errors 0 Warnings  Analysis time: 1[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/four_bit_LAC_adder_TB.v $dsn/src/TestBench/cla_behav_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module four_bit_CLA_adder found in current working library.
+# Info: VCP2113 Module full_adder_4bit found in current working library.
+# Info: VCP2113 Module full_adder_4bit found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Error: VCP2858 CLA_4bit-behav.v : (106, 26): cout is not a valid left-hand side of a procedural assignment.
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/four_bit_LAC_adder_TB.v $dsn/src/TestBench/cla_behav_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module four_bit_CLA_adder found in current working library.
+# Info: VCP2113 Module full_adder_4bit found in current working library.
+# Info: VCP2113 Module full_adder_4bit found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Unit top modules: cla_tb four_bit_LAC_adder_tb cla_behav_tb.
+# $root top modules: rca cla_tb cla_behav_tb four_bit_LAC_adder_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+cla_behav_tb cla_behav_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla_behav' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.6 [s]
+# SLP: Finished : 0.7 [s]
+# SLP: 0 primitives and 3 (100.00%) other processes in SLP
+# SLP: 14 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.7 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1121 kB (elbread=1023 elab2=8 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  8:30 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: cla_behav_tb (cla_behav_tb)
+# Waveform file 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit-gate_WF.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+# add wave -noreg {/cla_behav_tb/a}
+# add wave -noreg {/cla_behav_tb/b}
+# add wave -noreg {/cla_behav_tb/cin}
+# add wave -noreg {/cla_behav_tb/sum}
+# add wave -noreg {/cla_behav_tb/cout}
+# 5 signal(s) traced.
+run 500 ns
+# KERNEL: 0 ps x x x x x 
+# KERNEL: stopped at time: 500 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/four_bit_LAC_adder_TB.v $dsn/src/TestBench/cla_behav_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module four_bit_CLA_adder found in current working library.
+# Info: VCP2113 Module full_adder_4bit found in current working library.
+# Info: VCP2113 Module full_adder_4bit found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Unit top modules: cla_tb four_bit_LAC_adder_tb cla_behav_tb.
+# $root top modules: rca cla_tb cla_behav_tb four_bit_LAC_adder_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+cla_behav_tb cla_behav_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla_behav' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.7 [s]
+# SLP: Finished : 0.7 [s]
+# SLP: 0 primitives and 3 (100.00%) other processes in SLP
+# SLP: 14 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.8 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1125 kB (elbread=1023 elab2=12 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  8:31 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: cla_behav_tb (cla_behav_tb)
+# Waveform file 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit-gate_WF.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+# add wave -noreg {/cla_behav_tb/a}
+# add wave -noreg {/cla_behav_tb/b}
+# add wave -noreg {/cla_behav_tb/cin}
+# add wave -noreg {/cla_behav_tb/sum}
+# add wave -noreg {/cla_behav_tb/cout}
+# 5 signal(s) traced.
+run 500 ns
+# KERNEL: 0 ps x x x x x 
+# KERNEL: 100 ps 5 6 0 b 1 
+# KERNEL: 200 ps 1 7 1 9 1 
+# KERNEL: 300 ps 5 9 1 f 1 
+# KERNEL: 400 ps a 6 0 0 0 
+# RUNTIME: Info: RUNTIME_0068 cla_behav_TB.v (63): $finish called.
+# KERNEL: Time: 500 ps,  Iteration: 0,  Instance: /cla_behav_tb,  Process: @INITIAL#42_1@.
+# KERNEL: stopped at time: 500 ps
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+cla_behav_tb cla_behav_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla_behav' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-behav.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module cla_tb found in current working library.
+# Info: VCP2113 Module cla_behav_tb found in current working library.
+# Info: VCP2113 Module four_bit_LAC_adder_tb found in current working library.
+# $root top modules: rca cla_tb cla_behav_tb four_bit_LAC_adder_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla_behav' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.7 [s]
+# SLP: Finished : 0.8 [s]
+# SLP: 0 primitives and 3 (100.00%) other processes in SLP
+# SLP: 14 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.8 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1125 kB (elbread=1023 elab2=12 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  8:33 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: cla_behav_tb (cla_behav_tb)
+# Waveform file 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit-gate_WF.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+# add wave -noreg {/cla_behav_tb/a}
+# add wave -noreg {/cla_behav_tb/b}
+# add wave -noreg {/cla_behav_tb/cin}
+# add wave -noreg {/cla_behav_tb/sum}
+# add wave -noreg {/cla_behav_tb/cout}
+# 5 signal(s) traced.
+run 500 ns
+# KERNEL: 0 ps x x x x x 
+# KERNEL: 100 ps 5 6 0 b 0 
+# KERNEL: 200 ps 1 7 1 9 0 
+# KERNEL: 300 ps 5 9 1 f 0 
+# KERNEL: 400 ps a 6 0 0 1 
+# RUNTIME: Info: RUNTIME_0068 cla_behav_TB.v (63): $finish called.
+# KERNEL: Time: 500 ps,  Iteration: 0,  Instance: /cla_behav_tb,  Process: @INITIAL#42_1@.
+# KERNEL: stopped at time: 500 ps
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/four_bit_LAC_adder_TB.v $dsn/src/TestBench/cla_behav_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module four_bit_CLA_adder found in current working library.
+# Info: VCP2113 Module full_adder_4bit found in current working library.
+# Info: VCP2113 Module full_adder_4bit found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Unit top modules: cla_tb four_bit_LAC_adder_tb cla_behav_tb.
+# $root top modules: rca cla_tb cla_behav_tb four_bit_LAC_adder_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla_behav' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.6 [s]
+# SLP: Finished : 0.6 [s]
+# SLP: 0 primitives and 3 (100.00%) other processes in SLP
+# SLP: 14 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.7 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1125 kB (elbread=1023 elab2=12 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  8:34 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: cla_behav_tb (cla_behav_tb)
+# Waveform file 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit-gate_WF.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Signal '/cla_behav_tb/a' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/cla_behav_tb/b' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/cla_behav_tb/cin' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/cla_behav_tb/sum' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/cla_behav_tb/cout' has already been traced.
+# add wave -noreg {/cla_behav_tb/a}
+# add wave -noreg {/cla_behav_tb/b}
+# add wave -noreg {/cla_behav_tb/cin}
+# add wave -noreg {/cla_behav_tb/sum}
+# add wave -noreg {/cla_behav_tb/cout}
+# KERNEL: Warning: KERNEL_0291 Signal '/cla_behav_tb/a' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/cla_behav_tb/b' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/cla_behav_tb/cin' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/cla_behav_tb/sum' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/cla_behav_tb/cout' has already been traced.
+# 0 signal(s) traced.
+run 500 ns
+# KERNEL: 0 ps x x x x x 
+# KERNEL: 100 ps 5 6 0 b 1 
+# KERNEL: 200 ps 1 7 1 9 1 
+# KERNEL: 300 ps 5 9 1 f 1 
+# KERNEL: 400 ps a 6 0 0 0 
+# RUNTIME: Info: RUNTIME_0068 cla_behav_TB.v (63): $finish called.
+# KERNEL: Time: 500 ps,  Iteration: 0,  Instance: /cla_behav_tb,  Process: @INITIAL#42_1@.
+# KERNEL: stopped at time: 500 ps
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+cla_behav_tb cla_behav_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla_behav' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-behav.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module cla_tb found in current working library.
+# Info: VCP2113 Module cla_behav_tb found in current working library.
+# Info: VCP2113 Module four_bit_LAC_adder_tb found in current working library.
+# $root top modules: rca cla_tb cla_behav_tb four_bit_LAC_adder_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla_behav' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.7 [s]
+# SLP: Finished : 0.7 [s]
+# SLP: 0 primitives and 3 (100.00%) other processes in SLP
+# SLP: 14 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.8 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1125 kB (elbread=1023 elab2=12 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  8:35 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: cla_behav_tb (cla_behav_tb)
+# Waveform file 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit-gate_WF.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+# add wave -noreg {/cla_behav_tb/a}
+# add wave -noreg {/cla_behav_tb/b}
+# add wave -noreg {/cla_behav_tb/cin}
+# add wave -noreg {/cla_behav_tb/sum}
+# add wave -noreg {/cla_behav_tb/cout}
+# 5 signal(s) traced.
+run 500 ns
+# KERNEL: 0 ps x x x x x 
+# KERNEL: 100 ps 5 6 0 b 1 
+# KERNEL: 200 ps 1 7 1 9 1 
+# KERNEL: 300 ps 5 9 1 f 1 
+# KERNEL: 400 ps a 6 0 0 0 
+# RUNTIME: Info: RUNTIME_0068 cla_behav_TB.v (63): $finish called.
+# KERNEL: Time: 500 ps,  Iteration: 0,  Instance: /cla_behav_tb,  Process: @INITIAL#42_1@.
+# KERNEL: stopped at time: 500 ps
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+cla_behav_tb cla_behav_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla_behav' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-behav.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module cla_tb found in current working library.
+# Info: VCP2113 Module cla_behav_tb found in current working library.
+# Info: VCP2113 Module four_bit_LAC_adder_tb found in current working library.
+# $root top modules: rca cla_tb cla_behav_tb four_bit_LAC_adder_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla_behav' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.9 [s]
+# SLP: Finished : 1.0 [s]
+# SLP: 0 primitives and 3 (100.00%) other processes in SLP
+# SLP: 14 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 1.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1125 kB (elbread=1023 elab2=12 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  8:35 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: cla_behav_tb (cla_behav_tb)
+# Waveform file 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit-gate_WF.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+# add wave -noreg {/cla_behav_tb/a}
+# add wave -noreg {/cla_behav_tb/b}
+# add wave -noreg {/cla_behav_tb/cin}
+# add wave -noreg {/cla_behav_tb/sum}
+# add wave -noreg {/cla_behav_tb/cout}
+# 5 signal(s) traced.
+run 500 ns
+# KERNEL: 0 ps x x x x x 
+# KERNEL: 100 ps 5 6 0 b 0 
+# KERNEL: 200 ps 1 7 1 9 0 
+# KERNEL: 300 ps 5 9 1 f 0 
+# KERNEL: 400 ps a 6 0 0 1 
+# RUNTIME: Info: RUNTIME_0068 cla_behav_TB.v (63): $finish called.
+# KERNEL: Time: 500 ps,  Iteration: 0,  Instance: /cla_behav_tb,  Process: @INITIAL#42_1@.
+# KERNEL: stopped at time: 500 ps
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla_behav' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 3 (100.00%) other processes in SLP
+# SLP: 14 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1125 kB (elbread=1023 elab2=12 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  8:36 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: cla_behav_tb (cla_behav_tb)
+# Waveform file 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit-gate_WF.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Signal '/cla_behav_tb/a' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/cla_behav_tb/b' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/cla_behav_tb/cin' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/cla_behav_tb/sum' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/cla_behav_tb/cout' has already been traced.
+run 600 ns
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/TestBench/cla_behav_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module cla_behav found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module cla_tb found in current working library.
+# Info: VCP2113 Module four_bit_LAC_adder_tb found in current working library.
+# Unit top modules: cla_behav_tb.
+# $root top modules: rca cla_tb cla_behav_tb four_bit_LAC_adder_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla_behav' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.8 [s]
+# SLP: Finished : 0.8 [s]
+# SLP: 0 primitives and 3 (100.00%) other processes in SLP
+# SLP: 14 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.8 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1125 kB (elbread=1023 elab2=12 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  8:36 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: cla_behav_tb (cla_behav_tb)
+# Waveform file 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit-gate_WF.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Signal '/cla_behav_tb/a' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/cla_behav_tb/b' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/cla_behav_tb/cin' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/cla_behav_tb/sum' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/cla_behav_tb/cout' has already been traced.
+run 600 ns
+# KERNEL: 0 ps x x x x x 
+# KERNEL: 100 ps 5 6 0 b 0 
+# KERNEL: 200 ps 1 7 1 9 0 
+# KERNEL: 300 ps 5 9 1 f 0 
+# KERNEL: 400 ps 2 3 0 5 0 
+# KERNEL: 500 ps a 6 0 0 1 
+# RUNTIME: Info: RUNTIME_0068 cla_behav_TB.v (68): $finish called.
+# KERNEL: Time: 600 ps,  Iteration: 0,  Instance: /cla_behav_tb,  Process: @INITIAL#42_1@.
+# KERNEL: stopped at time: 600 ps
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+cla_behav_tb cla_behav_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla_behav' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/TestBench/cla_behav_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module cla_behav found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Info: VCP2113 Module cla_tb found in current working library.
+# Info: VCP2113 Module four_bit_LAC_adder_tb found in current working library.
+# Unit top modules: cla_behav_tb.
+# $root top modules: rca cla_tb cla_behav_tb four_bit_LAC_adder_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla_behav' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.7 [s]
+# SLP: Finished : 0.8 [s]
+# SLP: 0 primitives and 3 (100.00%) other processes in SLP
+# SLP: 14 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.8 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1126 kB (elbread=1023 elab2=13 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  8:37 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: cla_behav_tb (cla_behav_tb)
+# Waveform file 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit-gate_WF.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+# add wave -noreg {/cla_behav_tb/a}
+# add wave -noreg {/cla_behav_tb/b}
+# add wave -noreg {/cla_behav_tb/cin}
+# add wave -noreg {/cla_behav_tb/sum}
+# add wave -noreg {/cla_behav_tb/cout}
+# 5 signal(s) traced.
+run 600 ns
+# KERNEL: 0 ps x x x x x 
+# KERNEL: 100 ps 5 6 0 b 0 
+# KERNEL: 200 ps 1 7 1 9 0 
+# KERNEL: 300 ps 5 9 1 f 0 
+# KERNEL: 400 ps 2 3 0 5 0 
+# KERNEL: 500 ps 5 5 0 a 0 
+# KERNEL: 600 ps a 6 0 0 1 
+# RUNTIME: Info: RUNTIME_0068 cla_behav_TB.v (73): $finish called.
+# KERNEL: Time: 700 ps,  Iteration: 0,  Instance: /cla_behav_tb,  Process: @INITIAL#42_1@.
+# KERNEL: stopped at time: 700 ps
+endsim
+#  Simulation has been stopped
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/four_bit_LAC_adder_TB.v $dsn/src/TestBench/cla_behav_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module four_bit_CLA_adder found in current working library.
+# Info: VCP2113 Module full_adder_4bit found in current working library.
+# Info: VCP2113 Module full_adder_4bit found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Warning: VCP2635 CLA_4bit-behav.v : (106, 26): Selection index out of range: 5.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Unit top modules: cla_tb four_bit_LAC_adder_tb cla_behav_tb.
+# $root top modules: rca cla_tb cla_behav_tb four_bit_LAC_adder_tb.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/four_bit_LAC_adder_TB.v $dsn/src/TestBench/cla_behav_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module four_bit_CLA_adder found in current working library.
+# Info: VCP2113 Module full_adder_4bit found in current working library.
+# Info: VCP2113 Module full_adder_4bit found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Warning: VCP2635 CLA_4bit-behav.v : (106, 26): Selection index out of range: 5.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Unit top modules: cla_tb four_bit_LAC_adder_tb cla_behav_tb.
+# $root top modules: rca cla_tb cla_behav_tb four_bit_LAC_adder_tb.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+asim -O5 +access +r +m+cla_behav_tb cla_behav_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla_behav' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.6 [s]
+# SLP: Finished : 0.6 [s]
+# SLP: 0 primitives and 3 (100.00%) other processes in SLP
+# SLP: 14 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.7 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1126 kB (elbread=1023 elab2=13 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  8:38 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: cla_behav_tb (cla_behav_tb)
+# Waveform file 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit-gate_WF.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+# add wave -noreg {/cla_behav_tb/a}
+# add wave -noreg {/cla_behav_tb/b}
+# add wave -noreg {/cla_behav_tb/cin}
+# add wave -noreg {/cla_behav_tb/sum}
+# add wave -noreg {/cla_behav_tb/cout}
+# 5 signal(s) traced.
+run 600 ns
+# KERNEL: 0 ps x x x x x 
+# KERNEL: 100 ps 5 6 0 b x 
+# KERNEL: 200 ps 1 7 1 9 x 
+# KERNEL: 300 ps 5 9 1 f x 
+# KERNEL: 400 ps 2 3 0 5 x 
+# KERNEL: 500 ps 5 5 0 a x 
+# KERNEL: 600 ps a 6 0 0 x 
+# RUNTIME: Info: RUNTIME_0068 cla_behav_TB.v (73): $finish called.
+# KERNEL: Time: 700 ps,  Iteration: 0,  Instance: /cla_behav_tb,  Process: @INITIAL#42_1@.
+# KERNEL: stopped at time: 700 ps
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/four_bit_LAC_adder_TB.v $dsn/src/TestBench/cla_behav_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+endsim
+#  Simulation has been stopped
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module four_bit_CLA_adder found in current working library.
+# Info: VCP2113 Module full_adder_4bit found in current working library.
+# Info: VCP2113 Module full_adder_4bit found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Unit top modules: cla_tb four_bit_LAC_adder_tb cla_behav_tb.
+# $root top modules: rca cla_tb cla_behav_tb four_bit_LAC_adder_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+asim -O5 +access +r +m+cla_behav_tb cla_behav_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla_behav' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.6 [s]
+# SLP: Finished : 0.6 [s]
+# SLP: 0 primitives and 3 (100.00%) other processes in SLP
+# SLP: 14 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.7 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1126 kB (elbread=1023 elab2=13 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  8:39 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: cla_behav_tb (cla_behav_tb)
+# Waveform file 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit-gate_WF.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+# add wave -noreg {/cla_behav_tb/a}
+# add wave -noreg {/cla_behav_tb/b}
+# add wave -noreg {/cla_behav_tb/cin}
+# add wave -noreg {/cla_behav_tb/sum}
+# add wave -noreg {/cla_behav_tb/cout}
+# 5 signal(s) traced.
+run 600 ns
+# KERNEL: 0 ps x x x x x 
+# KERNEL: 100 ps 5 6 0 b 0 
+# KERNEL: 200 ps 1 7 1 9 0 
+# KERNEL: 300 ps 5 9 1 f 0 
+# KERNEL: 400 ps 2 3 0 5 0 
+# KERNEL: 500 ps 5 5 0 a 0 
+# KERNEL: 600 ps a 6 0 0 1 
+# RUNTIME: Info: RUNTIME_0068 cla_behav_TB.v (73): $finish called.
+# KERNEL: Time: 700 ps,  Iteration: 0,  Instance: /cla_behav_tb,  Process: @INITIAL#42_1@.
+# KERNEL: stopped at time: 700 ps
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/four_bit_LAC_adder_TB.v $dsn/src/TestBench/cla_behav_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module four_bit_CLA_adder found in current working library.
+# Info: VCP2113 Module full_adder_4bit found in current working library.
+# Info: VCP2113 Module full_adder_4bit found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Unit top modules: cla_tb four_bit_LAC_adder_tb cla_behav_tb.
+# $root top modules: rca cla_tb cla_behav_tb four_bit_LAC_adder_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+cla_behav_tb cla_behav_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'cla_behav' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 1.0 [s]
+# SLP: Finished : 1.1 [s]
+# SLP: 0 primitives and 3 (100.00%) other processes in SLP
+# SLP: 14 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 1.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1127 kB (elbread=1023 elab2=14 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\wave.asdb
+#  8:40 PM, Wednesday, December 30, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: cla_behav_tb (cla_behav_tb)
+# Waveform file 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/CLA_4bit-gate_WF.awc' connected to 'C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/src/wave.asdb'.
+# add wave -noreg {/cla_behav_tb/a}
+# add wave -noreg {/cla_behav_tb/b}
+# add wave -noreg {/cla_behav_tb/cin}
+# add wave -noreg {/cla_behav_tb/sum}
+# add wave -noreg {/cla_behav_tb/cout}
+# 5 signal(s) traced.
+run 600 ns
+# KERNEL: 0 ps x x x x x 
+# KERNEL: 100 ps 5 6 0 b 0 
+# KERNEL: 200 ps 1 7 1 9 0 
+# KERNEL: 300 ps 5 9 1 f 0 
+# KERNEL: 400 ps f f 1 f 1 
+# KERNEL: 500 ps 2 3 0 5 0 
+# KERNEL: 600 ps 5 5 0 a 0 
+# KERNEL: 700 ps a 6 0 0 1 
+# RUNTIME: Info: RUNTIME_0068 cla_behav_TB.v (78): $finish called.
+# KERNEL: Time: 800 ps,  Iteration: 0,  Instance: /cla_behav_tb,  Process: @INITIAL#42_1@.
+# KERNEL: stopped at time: 800 ps
+# Adding file C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\CLA_4bit-gate_WF.awc ... Done
+alog -O2 -sve  -work CLA_4bit_gate $dsn/src/CLA_4bit-gate.v $dsn/src/CLA_4bit-behav.v $dsn/src/TestBench/cla_TB.v $dsn/src/TestBench/four_bit_LAC_adder_TB.v $dsn/src/TestBench/cla_behav_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module four_bit_CLA_adder found in current working library.
+# Info: VCP2113 Module full_adder_4bit found in current working library.
+# Info: VCP2113 Module full_adder_4bit found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module rca found in current working library.
+# Unit top modules: cla_tb four_bit_LAC_adder_tb cla_behav_tb.
+# $root top modules: rca cla_tb cla_behav_tb four_bit_LAC_adder_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+#  Simulation has been stopped
+# Adding file C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\src\CLA_4bit-gate_WF.awc ... Done

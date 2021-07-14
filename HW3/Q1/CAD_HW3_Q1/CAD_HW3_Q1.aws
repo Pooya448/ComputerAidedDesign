@@ -1,0 +1,12 @@
+[Version]
+Version=9.2
+[Designs]
+cla_4bit_gate=.\CLA_4bit_gate\CLA_4bit_gate.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+cla_4bit_gate=1

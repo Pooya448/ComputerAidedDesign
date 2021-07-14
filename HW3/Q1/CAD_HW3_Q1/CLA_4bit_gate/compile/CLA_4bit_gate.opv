@@ -1,0 +1,1 @@
+ -erf "C:\Users\alireza\Desktop\CAD\HW3\Q1\CAD_HW3_Q1\CLA_4bit_gate\compile\CLA_4bit_gate.erf" -work CLA_4bit_gate -lc C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/library.cfg -fl C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/projlib.cfg -o C:/Users/alireza/Desktop/CAD/HW3/Q1/CAD_HW3_Q1/CLA_4bit_gate/compile -l "CLA_4bit_gate" -sve   -O2

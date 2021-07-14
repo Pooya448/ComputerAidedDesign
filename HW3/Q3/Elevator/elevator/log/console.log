@@ -1,0 +1,208 @@
+# Design: Design elevator already active.
+# 
+# DESIGN: Default Design Language: VERILOG
+# DESIGN: Default BDE Language: VERILOG
+# DESIGN: C-Synthesis: Not Defined
+# DESIGN: HDL Synthesis: Not Defined
+# DESIGN: Physical Synthesis: Not Defined
+# DESIGN: Implementation: Not Defined
+alog -O2 -sve  -work elevator $dsn/src/on.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2020 on.v : (66, 10): begin...end pair(s) mismatch detected. 3 <end> tokens are missing.
+# Error: VCP2000 on.v : (66, 10): Syntax error. Unexpected token: endmodule[_ENDMODULE]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... .
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work elevator $dsn/src/on.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2020 on.v : (67, 10): begin...end pair(s) mismatch detected. 2 <end> tokens are missing.
+# Error: VCP2000 on.v : (67, 10): Syntax error. Unexpected token: endmodule[_ENDMODULE]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... .
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work elevator $dsn/src/on.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2020 on.v : (67, 10): begin...end pair(s) mismatch detected. 2 <end> tokens are missing.
+# Error: VCP2000 on.v : (67, 10): Syntax error. Unexpected token: endmodule[_ENDMODULE]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... .
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work elevator $dsn/src/on.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2020 on.v : (68, 10): begin...end pair(s) mismatch detected. 1 <end> tokens are missing.
+# Error: VCP2000 on.v : (68, 10): Syntax error. Unexpected token: endmodule[_ENDMODULE]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... .
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work elevator $dsn/src/on.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 on.v : (69, 10): Syntax error. Unexpected token: endmodule[_ENDMODULE]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... .
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work elevator $dsn/src/on.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 on.v : (70, 10): Syntax error. Unexpected token: endmodule[_ENDMODULE]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... .
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work elevator $dsn/src/on.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2580 on.v : (3, 1): Error at port in. Only NET type is allowed for INPUT or INOUT ports.
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work elevator $dsn/src/on.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP9109 on.v : (3, 40): Verilog nets of type integer are not supported yet. Please contact Aldec Support to receive the latest status.
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work elevator $dsn/src/on.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Unit top modules: power.
+# $root top modules: power.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work elevator $dsn/src/on.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: power.
+# $root top modules: power.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work elevator $dsn/src/start.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module power found in current working library.
+# Unit top modules: start.
+# $root top modules: power start.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work elevator $dsn/src/start.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module power found in current working library.
+# Unit top modules: start.
+# $root top modules: power start.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+alog -O2 -sve  -work elevator $dsn/src/stop.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Warning: VCP2603 stop.v : (8, 52): Port 'dir' type is defined in module header and should not be overwritten later in module body (mixing ANSI and NONANSI header style).
+# Error: VCP2580 stop.v : (3, 1): Error at port dir. Only NET type is allowed for INPUT or INOUT ports.
+# Warning: VCP2557 stop.v : (8, 1): Identifier "dir" is used on the ANSI style port list and cannot be redeclared in the module name space.
+# Warning: VCP2558 stop.v : (8, 1): Size changed at redeclaration of port: dir.
+# Compile failure 1 Errors 3 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work elevator $dsn/src/stop.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Error: VCP2000 stop.v : (21, 24): Syntax error. Unexpected token: 1[__1]. Expected tokens: '[' , ')' , ',' , ';' , '=' ... .
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work elevator $dsn/src/stop.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module power found in current working library.
+# Info: VCP2113 Module start found in current working library.
+# Unit top modules: stop.
+# $root top modules: power start stop.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work elevator $dsn/src/start.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module power found in current working library.
+# Info: VCP2113 Module stop found in current working library.
+# Unit top modules: start.
+# $root top modules: power start stop.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work elevator $dsn/src/AC.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 AC.v : (48, 7): Syntax error. Unexpected token: if[_IF]. Expected tokens: 'endcase' , ''' , '(' , '[' , '{' ... .
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work elevator $dsn/src/AC.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (F:/Classes/CAD/Assignments/HW3_Q3/Elevator/elevator/src/AC.v, ln 20).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module power found in current working library.
+# Info: VCP2113 Module start found in current working library.
+# Info: VCP2113 Module stop found in current working library.
+# Unit top modules: ac.
+# $root top modules: power start stop ac.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work elevator $dsn/src/start.v $dsn/src/stop.v $dsn/src/AC.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (F:/Classes/CAD/Assignments/HW3_Q3/Elevator/elevator/src/AC.v, ln 20).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module power found in current working library.
+# Unit top modules: start stop ac.
+# $root top modules: power start stop ac.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done

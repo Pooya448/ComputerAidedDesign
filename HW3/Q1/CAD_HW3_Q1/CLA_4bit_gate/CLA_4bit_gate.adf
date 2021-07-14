@@ -1,0 +1,71 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=CLA_4bit_gate
+
+[Library]
+CLA_4bit_gate=.\CLA_4bit_gate\CLA_4bit_gate.lib
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VERILOG
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+CLA_4bit_gate=.
+Active_lib=
+
+[Groups]
+TestBench=1
+
+[Files]
+/CLA_4bit-gate.v=-1
+/CLA_4bit-behav.v=-1
+/CLA_4bit-gate_WF.asdb=-1
+/CLA_4bit-gate_WF.awc=-1
+TestBench/cla_TB.v=-1
+TestBench/cla_TB_runtest.do=-1
+TestBench/four_bit_LAC_adder_TB.v=-1
+TestBench/four_bit_LAC_adder_TB_runtest.do=-1
+TestBench/cla_behav_TB.v=-1
+TestBench/cla_behav_TB_runtest.do=-1
+
+[Files.Data]
+.\src\CLA_4bit-gate.v=Verilog Source Code
+.\src\CLA_4bit-behav.v=Verilog Source Code
+.\src\CLA_4bit-gate_WF.asdb=Accelerated Waveform File
+.\src\CLA_4bit-gate_WF.awc=Accelerated Waveform Configuration
+.\src\TestBench\cla_TB.v=Verilog Test Bench
+.\src\TestBench\cla_TB_runtest.do=Macro
+
+.\src\TestBench\four_bit_LAC_adder_TB.v=Verilog Test Bench
+.\src\TestBench\four_bit_LAC_adder_TB_runtest.do=Macro
+.\src\TestBench\cla_behav_TB.v=Verilog Test Bench
+.\src\TestBench\cla_behav_TB_runtest.do=Macro
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=

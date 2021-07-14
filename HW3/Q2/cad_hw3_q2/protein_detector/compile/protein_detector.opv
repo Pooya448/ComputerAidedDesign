@@ -1,0 +1,1 @@
+ -erf "C:\Users\alireza\Desktop\CAD\HW3\Q2\cad_hw3_q2\protein_detector\compile\protein_detector.erf" -work protein_detector -lc C:/Users/alireza/Desktop/CAD/HW3/Q2/cad_hw3_q2/library.cfg -fl C:/Users/alireza/Desktop/CAD/HW3/Q2/cad_hw3_q2/protein_detector/projlib.cfg -o C:/Users/alireza/Desktop/CAD/HW3/Q2/cad_hw3_q2/protein_detector/compile -l "protein_detector" -sve   -O2

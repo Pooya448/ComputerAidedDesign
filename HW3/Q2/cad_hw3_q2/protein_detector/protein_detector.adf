@@ -1,0 +1,63 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=protein_detector
+
+[Library]
+protein_detector=.\protein_detector\protein_detector.lib
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VERILOG
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+protein_detector=.
+Active_lib=
+
+[Groups]
+TestBench=1
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/protein.v=-1
+/waveform.asdb=-1
+/waveform.awc=-1
+TestBench/LDLD_MST_protein_det_TB.v=-1
+TestBench/LDLD_MST_protein_det_TB_runtest.do=-1
+
+[Files.Data]
+.\src\protein.v=Verilog Source Code
+.\src\waveform.asdb=Accelerated Waveform File
+.\src\waveform.awc=Accelerated Waveform Configuration
+.\src\TestBench\LDLD_MST_protein_det_TB.v=Verilog Test Bench
+.\src\TestBench\LDLD_MST_protein_det_TB_runtest.do=Macro
+

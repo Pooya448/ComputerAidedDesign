@@ -1,0 +1,1 @@
+ -erf "F:\Classes\CAD\Assignments\HW3_Q3\Elevator\elevator\compile\elevator.erf" -work elevator -lc F:/Classes/CAD/Assignments/HW3_Q3/Elevator/library.cfg -fl F:/Classes/CAD/Assignments/HW3_Q3/Elevator/elevator/projlib.cfg -o F:/Classes/CAD/Assignments/HW3_Q3/Elevator/elevator/compile -l "elevator" -sve   -O2

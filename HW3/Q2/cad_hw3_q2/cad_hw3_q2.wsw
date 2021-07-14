@@ -1,0 +1,9 @@
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\protein_detector\src\protein.v|]
+TemplateId=2
+ActiveDocument=1
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\protein_detector\src\TestBench\LDLD_MST_protein_det_TB.v|]
+TemplateId=2
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\..\..\..\HW2\HW2_Q2_CAD\hw2\src\TestBench\mealy1101011_TB.v|]
+TemplateId=2
+[OPENDOC|Aldec.WaveFormASDB.7|.\protein_detector\src/waveform.awc|]
+TemplateId=0

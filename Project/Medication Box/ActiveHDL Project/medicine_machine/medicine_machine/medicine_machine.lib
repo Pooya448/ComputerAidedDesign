@@ -1,0 +1,44 @@
+timestamp=1612480907179
+
+[$root]
+A/$root=22|""|0|1*361272
+BinI32/$root=3*257845
+Version=9.2.2499.sp1.36.4586  (Windows)|00000017789cd3cd51c84d4dc94ccecc4b8dcf4d4cce00d20abafe4600627507fa
+
+[LDLD_MST_protein_det]
+A/LDLD_MST_protein_det=22|./../src/medicine.v|1|1*3507
+BinI32/LDLD_MST_protein_det=3*4858
+R=./../src/medicine.v|1
+Version=9.2.2499.sp1.36.4586  (Windows)|00000017789cd3cd51c84d4dc94ccecc4b8dcf4d4cce00d20abafe4600627507fa
+
+[medicine_machine]
+A/medicine_machine=22|./../src/medicine.v|1|1*361694
+BinI32/medicine_machine=3*257984
+R=./../src/medicine.v|1
+Version=9.2.2499.sp1.36.4586  (Windows)|00000017789cd3cd51c84d4dc94ccecc4b8dcf4d4cce00d20abafe4600627507fa
+
+[medicine_machine_tb]
+A/medicine_machine_tb=22|./../src/TestBench/medicine_machine_TB.v|22|1*365220
+BinI32/medicine_machine_tb=3*261345
+R=./../src/TestBench/medicine_machine_TB.v|22
+Version=9.2.2499.sp1.36.4586  (Windows)|00000017789cd3cd51c84d4dc94ccecc4b8dcf4d4cce00d20abafe4600627507fa
+
+[~A]
+C:/Users/alireza/Desktop/CAD/Final Project/Final/medicine_machine/src/TestBench/medicine_machine_TB.v=0*106226*107103
+C:/Users/alireza/Desktop/CAD/Final Project/Final/medicine_machine/src/medicine.v=0*122687*123719
+C:/Users/alireza/Desktop/CAD/Final Project/Final/medicine_machine/src/medicine.v_medicine_machine_TB.v=0*156899*158386
+LastVerilogToplevel=medicine_machine_tb
+ModifyID=1709
+Version=73
+
+[~MFT]
+0=400|0medicine_machine.mgf|158386|107517
+1=329|1medicine_machine.mgf|365220|357887
+3=329|3medicine_machine.mgf|261345|254476
+
+[~U]
+$root=12|0*156050|
+LDLD_MST_protein_det=12|0*2053||0x10
+medicine_machine=12|0*156248|
+medicine_machine_tb=12|0*156649||0x10
+

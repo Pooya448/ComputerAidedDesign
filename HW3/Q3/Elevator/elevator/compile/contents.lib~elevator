@@ -1,0 +1,11 @@
+166
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 3 "./../src/AC.v" 1 ac
+~A 1 "./../src/AC.v" 1 ac
+~M 3 "./../src/on.v" 1 power
+~A 1 "./../src/on.v" 1 power
+~M 3 "./../src/start.v" 1 start
+~A 1 "./../src/start.v" 1 start
+~M 3 "./../src/stop.v" 1 stop
+~A 1 "./../src/stop.v" 1 stop

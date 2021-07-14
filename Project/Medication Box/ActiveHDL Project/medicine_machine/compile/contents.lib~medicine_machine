@@ -1,0 +1,9 @@
+1709
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 3 "./../src/medicine.v" 1 LDLD_MST_protein_det
+~A 1 "./../src/medicine.v" 1 LDLD_MST_protein_det
+~M 1 "./../src/medicine.v" 1 medicine_machine
+~A 1 "./../src/medicine.v" 1 medicine_machine
+~M 3 "./../src/TestBench/medicine_machine_TB.v" 22 medicine_machine_tb
+~A 1 "./../src/TestBench/medicine_machine_TB.v" 22 medicine_machine_tb

@@ -1,0 +1,37 @@
+timestamp=1609435177748
+
+[$root]
+A/$root=22|""|0|1*67156
+BinI32/$root=3*53770
+Version=9.2.2499.sp1.36.4586  (Windows)|00000017789cd3cd512828ca2f49cdcc8b4f492d494d2ec92f52d0f5370200661b0842
+
+[LDLD_MST_protein_det]
+A/LDLD_MST_protein_det=22|./../src/protein.v|1|1*50105
+BinI32/LDLD_MST_protein_det=3*42344
+R=./../src/protein.v|1
+Version=9.2.2499.sp1.36.4586  (Windows)|00000017789cd3cd512828ca2f49cdcc8b4f492d494d2ec92f52d0f5370200661b0842
+
+[LDLD_MST_protein_det_tb]
+A/LDLD_MST_protein_det_tb=22|./../src/TestBench/LDLD_MST_protein_det_TB.v|22|1*67546
+BinI32/LDLD_MST_protein_det_tb=3*53909
+R=./../src/TestBench/LDLD_MST_protein_det_TB.v|22
+Version=9.2.2499.sp1.36.4586  (Windows)|00000017789cd3cd512828ca2f49cdcc8b4f492d494d2ec92f52d0f5370200661b0842
+
+[~A]
+C:/Users/alireza/Desktop/CAD/HW3/Q2/cad_hw3_q2/protein_detector/src/TestBench/LDLD_MST_protein_det_TB.v=0*34476*35323
+C:/Users/alireza/Desktop/CAD/HW3/Q2/cad_hw3_q2/protein_detector/src/protein.v=0*12418*13191
+C:/Users/alireza/Desktop/CAD/HW3/Q2/cad_hw3_q2/protein_detector/src/protein.v_LDLD_MST_protein_det_TB.v=0*26375*27607
+LastVerilogToplevel=LDLD_MST_protein_det_tb
+ModifyID=404
+Version=73
+
+[~MFT]
+0=105|0protein_detector.mgf|35323|20672
+1=76|1protein_detector.mgf|67546|64431
+3=76|3protein_detector.mgf|53909|49179
+
+[~U]
+$root=12|0*33986|
+LDLD_MST_protein_det=12|0*25683|
+LDLD_MST_protein_det_tb=12|0*34168||0x10
+

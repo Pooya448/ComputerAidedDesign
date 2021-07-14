@@ -1,0 +1,32 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+BEGINPROGRESS Compiling...
+UPDATEPROGRESS 7
+UPDATEPROGRESS 14
+UPDATEPROGRESS 21
+UPDATEPROGRESS 28
+UPDATEPROGRESS 35
+MESSAGE_SP VCP2113 "Module four_bit_CLA_adder found in current working library."
+MESSAGE_SP VCP2113 "Module full_adder_4bit found in current working library."
+MESSAGE_SP VCP2113 "Module full_adder_4bit found in current working library."
+MESSAGE "Pass 2. Processing instantiations."
+UPDATEPROGRESS 45
+MESSAGE "Pass 3. Processing behavioral statements."
+UPDATEPROGRESS 80
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+MESSAGE_SP VCP2113 "Module rca found in current working library."
+UPDATEPROGRESS 82
+UPDATEPROGRESS 85
+UPDATEPROGRESS 87
+UPDATEPROGRESS 90
+UPDATEPROGRESS 92
+UPDATEPROGRESS 95
+UPDATEPROGRESS 97
+UPDATEPROGRESS 100
+MESSAGE "Unit top modules: cla_tb four_bit_LAC_adder_tb cla_behav_tb."
+MESSAGE "$root top modules: rca cla_tb cla_behav_tb four_bit_LAC_adder_tb."
+ENDPROGRESS Compiling...
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time: 0[s]."
+MESSAGE "done"

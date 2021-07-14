@@ -1,0 +1,24 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+BEGINPROGRESS Compiling...
+UPDATEPROGRESS 11
+UPDATEPROGRESS 23
+UPDATEPROGRESS 35
+MESSAGE "Pass 2. Processing instantiations."
+UPDATEPROGRESS 45
+MESSAGE "Pass 3. Processing behavioral statements."
+UPDATEPROGRESS 80
+MESSAGE "Parameters in case labels, will not check for overlapping labels (F:/Classes/CAD/Assignments/HW3_Q3/Elevator/elevator/src/AC.v, ln 20)."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+MESSAGE_SP VCP2113 "Module power found in current working library."
+UPDATEPROGRESS 85
+UPDATEPROGRESS 90
+UPDATEPROGRESS 95
+UPDATEPROGRESS 100
+MESSAGE "Unit top modules: start stop ac."
+MESSAGE "$root top modules: power start stop ac."
+ENDPROGRESS Compiling...
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time: 0[s]."
+MESSAGE "done"

@@ -1,0 +1,75 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=medicine_machine
+
+[Library]
+medicine_machine=.\medicine_machine\medicine_machine.lib
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VERILOG
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+VerilogDirsChanged=1
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+VerilogLanguage=7
+Strict=0
+VerilogNoSpecify=0
+WarningPrnLevel=1
+ErrorOutputLimit=0
+OptimizationLevel=2
+ProtectLevel=0
+AdditionalOptions=
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+medicine_machine=.
+Active_lib=
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
+
+[DefineMacro]
+Global=
+
+[Groups]
+TestBench=1
+
+[Files]
+/medicine.v=-1
+/waveform.asdb=-1
+/waveform.awc=-1
+TestBench/medicine_machine_TB.v=-1
+TestBench/medicine_machine_TB_runtest.do=-1
+
+[Files.Data]
+.\src\medicine.v=Verilog Source Code
+.\src\waveform.asdb=Accelerated Waveform File
+.\src\waveform.awc=Accelerated Waveform Configuration
+.\src\TestBench\medicine_machine_TB.v=Verilog Test Bench
+.\src\TestBench\medicine_machine_TB_runtest.do=Macro
+

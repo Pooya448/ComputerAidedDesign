@@ -1,0 +1,5 @@
+i<>.\src\CLA_4bit.v
+i<>.\src\CLA_4bit-behav.v
+i<>.\src\TestBench\cla_TB.v
+i<>.\src\TestBench\four_bit_LAC_adder_TB.v
+i<>.\src\TestBench\cla_behav_TB.v
